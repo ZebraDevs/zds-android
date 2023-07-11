@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/progressIndicator"/>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressIndicator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/progressLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textLabel"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/progressLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/progressIndicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/progressIndicator"
+        app:layout_constraintTop_toTopOf="@id/progressIndicator" >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bufferingDot1"
+            android:layout_width="?attr/trackThickness"
+            android:layout_height="?attr/trackThickness"
+            android:layout_marginStart="?attr/trackThickness"
+            app:srcCompat="@drawable/buffering_dot"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bufferingDot2"
+            android:layout_width="?attr/trackThickness"
+            android:layout_height="?attr/trackThickness"
+            android:layout_marginStart="?attr/trackThickness"
+            app:srcCompat="@drawable/buffering_dot"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bufferingDot3"
+            android:layout_width="?attr/trackThickness"
+            android:layout_height="?attr/trackThickness"
+            android:layout_marginStart="?attr/trackThickness"
+            app:srcCompat="@drawable/buffering_dot"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

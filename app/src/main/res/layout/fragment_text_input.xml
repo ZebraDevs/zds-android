@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:zebra="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+
+    <com.zebra.zds.ZdsTextInput
+        android:id="@+id/zebra_text_input"
+        style="@style/Zds.TextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Zds.TextInput"
+        zebra:endIconDrawable="@drawable/ic_error"
+        zebra:hint="@string/app_name"
+        zebra:label="Custom label"
+        zebra:label_style="mandatory"
+        zebra:prefixText="$"
+        zebra:startIconDrawable="@drawable/ic_baseline_star_24" />
+
+    <com.zebra.zds.ZdsTextInput
+        android:id="@+id/zebra_text_input_dense"
+        style="@style/Zds.TextInput.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Zds.TextInput.Dense"
+        app:label="Optional label"
+        app:label_style="optional" />
+
+    <com.zebra.zds.ZdsTextInput
+        android:id="@+id/zebra_text_input_sharp"
+        style="@style/Zds.TextInput.Sharp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Zds.TextInput.Sharp" />
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/buttonSetError"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Error"
+        android:theme="@style/Zds.Button.Primary" />
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/buttonClearError"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Error"
+        android:theme="@style/Zds.Button.Primary" />
+</androidx.appcompat.widget.LinearLayoutCompat>

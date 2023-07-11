@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+    <com.zebra.zds.ZdsSelectInput
+        android:id="@+id/zebra_select_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Zds.SelectInput"
+        android:theme="@style/Zds.SelectInput"/>
+
+    <com.zebra.zds.ZdsSelectInput
+        android:id="@+id/zebra_select_input_sharp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Zds.SelectInput.Dense.Sharp"
+        android:theme="@style/Zds.SelectInput.Dense.Sharp"/>
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/buttonSetError"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Error"
+        android:theme="@style/Zds.Button.Primary" />
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/buttonClearError"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Error"
+        android:theme="@style/Zds.Button.Primary" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

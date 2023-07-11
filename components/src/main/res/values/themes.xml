@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ZdsBase" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/zebra_black_toolbar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorContainer">@color/zebra_blue_enabled</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorSurfaceVariant">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/textPrimaryVariant</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="colorControlNormal">@color/textPrimary</item>
+        <item name="android:statusBarColor">@color/zebra_black_toolbar</item>
+        <item name="materialButtonStyle">@style/Zds.Button.Primary</item>
+        <item name="toolbarStyle">@style/Zds.Toolbar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_action_mode_close</item>
+        <item name="searchViewStyle">@style/Zds.SearchView</item>
+        <item name="popupMenuBackground">@color/background</item>
+        <item name="textAppearanceLargePopupMenu">@style/Zds.Dropdown</item>
+        <item name="textAppearanceSmallPopupMenu">@style/Zds.Dropdown</item>
+
+        <item name="overlapAnchor">false</item>
+
+        <item name="snackbarStyle">@style/Zds.Snackbar</item>
+        <item name="snackbarButtonStyle">@style/Zds.Snackbar.SnackbarButton</item>
+    </style>
+
+</resources>

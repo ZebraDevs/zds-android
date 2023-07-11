@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+
+    <com.zebra.zds.ZdsSwitch
+        android:id="@+id/zebra_switch"
+        style="@style/Zds.Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Zds.Switch" />
+
+    <com.zebra.zds.ZdsSwitch
+        android:id="@+id/zebra_switch_disabled"
+        style="@style/Zds.Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:theme="@style/Zds.Switch" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

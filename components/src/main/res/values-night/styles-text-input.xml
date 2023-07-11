@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Zds.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorOutline">@color/zebra_grey_disabled</item>
+        <item name="colorError">@color/zebra_red_enabled</item>
+    </style>
+
+    <style name="Zds.TextInput.Sharp" parent="Zds.TextInput">
+        <item name="boxCornerRadiusBottomEnd">0dp</item>
+        <item name="boxCornerRadiusBottomStart">0dp</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+    </style>
+
+    <style name="Zds.TextInput.Dense" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorOutline">@color/zebra_grey_disabled</item>
+        <item name="colorError">@color/zebra_red_enabled</item>
+    </style>
+
+    <style name="Zds.TextInput.Dense.Sharp" parent="Zds.TextInput.Dense">
+        <item name="boxCornerRadiusBottomEnd">0dp</item>
+        <item name="boxCornerRadiusBottomStart">0dp</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option1"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option2"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option3"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option4"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:enabled="false"
+            android:theme="@style/Zds.RadioButton" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupLabeled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option1Label"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option1"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option2Label"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option2"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option3Label"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Option3"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/option4Label"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Option4"
+            android:theme="@style/Zds.RadioButton" />
+    </RadioGroup>
+</androidx.appcompat.widget.LinearLayoutCompat>

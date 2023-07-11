@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/defaultButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Default"
+            android:theme="@style/Zds.Button.Primary" />
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/defaultCondensedButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Default Condensed"
+            android:theme="@style/Zds.Button.Primary" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/radioButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Radio"
+            android:theme="@style/Zds.Button.Primary" />
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/radioCondensedButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Radio Condensed"
+            android:theme="@style/Zds.Button.Primary" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/checkboxButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Checkbox"
+            android:theme="@style/Zds.Button.Primary" />
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/checkboxCondensedButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Checkbox Condensed"
+            android:theme="@style/Zds.Button.Primary" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/countryButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Country"
+            android:theme="@style/Zds.Button.Primary" />
+
+        <com.zebra.zds.ZdsButton
+            android:id="@+id/countryCondensedButton"
+            style="@style/Zds.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Country Condensed"
+            android:theme="@style/Zds.Button.Primary" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

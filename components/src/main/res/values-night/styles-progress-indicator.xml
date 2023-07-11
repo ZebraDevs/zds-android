@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zds.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorSurfaceVariant">@color/zebra_grey_subtle_stroke</item>
+        <item name="colorOnSurface">@color/zebra_grey_subtle_stroke</item>
+        <item name="colorSurface">@color/zebra_grey_subtle_stroke</item>
+        <item name="colorOnSurfaceVariant">@color/zebra_grey_thumb_disabled</item>
+        <item name="trackCornerRadius">4dp</item>
+    </style>
+
+    <style name="Zds.LinearProgressIndicator.Sharp" parent="Zds.LinearProgressIndicator">
+        <item name="trackCornerRadius">0dp</item>
+    </style>
+
+    <style name="Zds.LinearProgressIndicator.Medium" parent="Zds.LinearProgressIndicator">
+        <item name="trackThickness">8dp</item>
+        <item name="trackCornerRadius">8dp</item>
+    </style>
+
+    <style name="Zds.LinearProgressIndicator.Medium.Sharp" parent="Zds.LinearProgressIndicator.Medium">
+        <item name="trackCornerRadius">0dp</item>
+    </style>
+
+    <style name="Zds.CircularProgressIndicator" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorSurfaceVariant">@color/zebra_grey_track</item>
+        <item name="colorOnSurface">@color/textPrimaryVariant</item>
+        <item name="colorSurface">@color/textPrimaryVariant</item>
+        <item name="colorOnSurfaceVariant">@color/textPrimary</item>
+        <item name="trackCornerRadius">4dp</item>
+    </style>
+
+    <style name="Zds.CircularProgressIndicator.Sharp" parent="Zds.CircularProgressIndicator">
+        <item name="trackCornerRadius">0dp</item>
+    </style>
+
+    <style name="CornerSize">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+</resources>

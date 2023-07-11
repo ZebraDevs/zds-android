@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="background">#FFFFFF</color>
+
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textPrimaryVariant">#1D1E23</color>
+    <color name="textDisabled">#AFB6C2</color>
+    <color name="textSecondary">#AFB6C2</color>
+
+    <color name="zebra_grey_disabled">#E8EBF1</color>
+    <color name="zebra_grey_subtle_stroke">#E0E3E9</color>
+    <color name="zebra_grey_subtle_icon">#929AA9</color>
+    <color name="zebra_grey_inverse">#1D1E23</color>
+    <color name="zebra_snackbar">#151519</color>
+    <color name="zebra_black_inverse">#202020</color>
+    <color name="zebra_black_toolbar">#151519</color>
+    <color name="zebra_hint">#646A78</color>
+    <color name="zebra_grey_track">#AFB6C2</color>
+    <color name="zebra_grey_track_disabled">#E8EBF1</color>
+    <color name="zebra_grey_thumb_disabled">#AFB6C2</color>
+    <color name="zebra_control">#151519</color>
+    <color name="zebra_control_inverse">#FFFFFF</color>
+
+    <color name="zebra_blue_enabled">#0073E6</color>
+    <color name="zebra_blue_pressed">#0061C2</color>
+    <color name="zebra_blue_inverse">#7EBEFF</color>
+    <color name="zebra_blue_pressed_outline">#EDEFF4</color>
+    <color name="zebra_blue_solid_selected">#F1F8FF</color>
+
+    <color name="zebra_yellow_enabled">#FFD200</color>
+    <color name="zebra_yellow_pressed">#C29500</color>
+    <color name="zebra_yellow_stroke">#FFD396</color>
+    <color name="zebra_yellow_banner">#FFFAF2</color>
+    <color name="zebra_yellow_system_banner">#FF9500</color>
+
+    <color name="zebra_red_enabled">#D70015</color>
+    <color name="zebra_red_pressed">#8F000E</color>
+    <color name="zebra_red_inverse">#FF8692</color>
+    <color name="zebra_red_error_background">#FFF0F1</color>
+
+    <color name="zebra_purple">#6400D6</color>
+    <color name="zebra_purple_stroke">#CEA4FF</color>
+    <color name="zebra_purple_banner">#F7F0FF</color>
+
+    <color name="zebra_green">#00864F</color>
+    <color name="zebra_green_stroke">#84DAB6</color>
+    <color name="zebra_green_banner">#ECFFF7</color>
+    <color name="zebra_green_system_banner">#005F38</color>
+
+</resources>

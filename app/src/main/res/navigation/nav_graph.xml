@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/buttonsFragment">
+
+    <fragment
+        android:id="@+id/buttonsFragment"
+        android:name="com.zebra.zdsDemo.fragments.ButtonsFragment"
+        android:label="Buttons"
+        tools:layout="@layout/fragment_buttons" />
+    <fragment
+        android:id="@+id/iconButtonsFragment"
+        android:name="com.zebra.zdsDemo.fragments.IconButtonsFragment"
+        android:label="Icon Buttons"
+        tools:layout="@layout/fragment_icon_buttons">
+        <action
+            android:id="@+id/action_iconButtonsFragment_pop"
+            app:popUpTo="@id/iconButtonsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/FABFragment"
+        android:name="com.zebra.zdsDemo.fragments.FABFragment"
+        android:label="FAB"
+        tools:layout="@layout/fragment_fab">
+        <action
+            android:id="@+id/action_FABFragment_pop"
+            app:popUpTo="@id/FABFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/textInputFragment"
+        android:name="com.zebra.zdsDemo.fragments.TextInputFragment"
+        android:label="Text Input"
+        tools:layout="@layout/fragment_text_input">
+        <action
+            android:id="@+id/action_textInputFragment_pop"
+            app:popUpTo="@id/textInputFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/switchFragment"
+        android:name="com.zebra.zdsDemo.fragments.SwitchFragment"
+        android:label="Switch"
+        tools:layout="@layout/fragment_switch">
+        <action
+            android:id="@+id/action_switchFragment_pop"
+            app:popUpTo="@id/switchFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/radioFragment"
+        android:name="com.zebra.zdsDemo.fragments.RadioFragment"
+        android:label="Radio Buttons"
+        tools:layout="@layout/fragment_radio">
+        <action
+            android:id="@+id/action_radioFragment_pop"
+            app:popUpTo="@id/radioFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkboxFragment"
+        android:name="com.zebra.zdsDemo.fragments.CheckBoxFragment"
+        android:label="Checkbox"
+        tools:layout="@layout/fragment_checkbox">
+        <action
+            android:id="@+id/action_checkboxFragment_pop"
+            app:popUpTo="@id/checkboxFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/progressIndicatorsFragment"
+        android:name="com.zebra.zdsDemo.fragments.ProgressIndicatorsFragment"
+        android:label="Progress Indicators"
+        tools:layout="@layout/fragment_progress_indicators">
+        <action
+            android:id="@+id/action_progressIndicatorsFragment_pop"
+            app:popUpTo="@id/progressIndicatorsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/toolbarFragment"
+        android:name="com.zebra.zdsDemo.fragments.ToolbarFragment"
+        android:label="Toolbar"
+        tools:layout="@layout/fragment_toolbar">
+        <action
+            android:id="@+id/action_toolbarFragment_pop"
+            app:popUpTo="@id/toolbarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/snackbarFragment"
+        android:name="com.zebra.zdsDemo.fragments.SnackbarFragment"
+        android:label="Snackbar"
+        tools:layout="@layout/fragment_snackbar">
+        <action
+            android:id="@+id/action_snackbarFragment_pop"
+            app:popUpTo="@id/snackbarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="com.zebra.zdsDemo.fragments.TabsFragment"
+        android:label="Tabs"
+        tools:layout="@layout/fragment_tabs">
+        <action
+            android:id="@+id/action_tabsFragment_pop"
+            app:popUpTo="@id/tabsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.zebra.zdsDemo.fragments.ListFragment"
+        android:label="Lists"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_listFragment_pop"
+            app:popUpTo="@id/listFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dialogsFragment"
+        android:name="com.zebra.zdsDemo.fragments.DialogsFragment"
+        android:label="Dialogs"
+        tools:layout="@layout/fragment_dialogs">
+        <action
+            android:id="@+id/action_dialogsFragment_pop"
+            app:popUpTo="@id/dialogsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dropdownFragment"
+        android:name="com.zebra.zdsDemo.fragments.DropdownFragment"
+        android:label="Dropdown"
+        tools:layout="@layout/fragment_dropdown">
+        <action
+            android:id="@+id/action_dropdownFragment_pop"
+            app:popUpTo="@id/dropdownFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.zebra.zdsDemo.fragments.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_pop"
+            app:popUpTo="@id/searchFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bannerFragment"
+        android:name="com.zebra.zdsDemo.fragments.BannerFragment"
+        android:label="Banner"
+        tools:layout="@layout/fragment_banner">
+        <action
+            android:id="@+id/action_bannerFragment_pop"
+            app:popUpTo="@id/bannerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectInputFragment"
+        android:name="com.zebra.zdsDemo.fragments.SelectInputFragment"
+        android:label="Select input"
+        tools:layout="@layout/fragment_select_input">
+        <action
+            android:id="@+id/action_selectInputFragment_pop"
+            app:popUpTo="@id/selectInputFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

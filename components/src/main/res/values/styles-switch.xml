@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zds.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorSurfaceVariant">@color/zebra_grey_track</item>
+        <item name="colorOnSurface">@color/zebra_grey_track</item>
+        <item name="colorSurface">@color/zebra_grey_track</item>
+        <item name="colorOnSurfaceVariant">@color/zebra_grey_thumb_disabled</item>
+        <item name="trackDecoration">@null</item>
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="track">@drawable/switch_track</item>
+        <item name="thumbTint">@drawable/switch_thumb_tint</item>
+        <item name="switchMinWidth">60dp</item>
+    </style>
+</resources>

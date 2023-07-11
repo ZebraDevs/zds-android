@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutDescription="@xml/banner_scene"
+    tools:applyMotionScene="false">
+
+    <com.zebra.zds.ZdsBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/bannerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/banner">
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/none"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="None"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/info"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/positive"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Positive"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/warning"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/negative"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negative"
+            android:theme="@style/Zds.RadioButton" />
+    </RadioGroup>
+
+    <com.zebra.zds.ZdsSwitch
+        android:id="@+id/sharpStyle"
+        style="@style/Zds.Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sharp style"
+        android:theme="@style/Zds.Switch"
+        app:layout_constraintTop_toBottomOf="@id/bannerStyle" />
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/showBanner"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Banner"
+        android:theme="@style/Zds.Button.Primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sharpStyle" />
+
+    <TextView
+        android:id="@+id/systemLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="System banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/showBanner" />
+
+    <RadioGroup
+        android:id="@+id/systemBannerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/systemLabel">
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/system_none"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="None"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/system_positive"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Positive"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/system_warning"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            android:theme="@style/Zds.RadioButton" />
+
+        <com.zebra.zds.ZdsRadioButton
+            android:id="@+id/system_negative"
+            style="@style/Zds.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negative"
+            android:theme="@style/Zds.RadioButton" />
+    </RadioGroup>
+
+    <com.zebra.zds.ZdsSwitch
+        android:id="@+id/titleCentered"
+        style="@style/Zds.Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title centered"
+        android:theme="@style/Zds.Switch"
+        app:layout_constraintTop_toBottomOf="@id/systemBannerStyle" />
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/showSystemBanner"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show SystemBanner"
+        android:theme="@style/Zds.Button.Primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleCentered" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

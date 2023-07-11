@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Zds.SelectInput" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorOutline">@color/zebra_grey_disabled</item>
+        <item name="colorError">@color/zebra_red_enabled</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+    </style>
+
+    <style name="Zds.SelectInput.Sharp" parent="Zds.SelectInput">
+        <item name="boxCornerRadiusBottomEnd">0dp</item>
+        <item name="boxCornerRadiusBottomStart">0dp</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+    </style>
+
+    <style name="Zds.SelectInput.Dense" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorOutline">@color/zebra_grey_disabled</item>
+        <item name="colorError">@color/zebra_red_enabled</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+    </style>
+
+    <style name="Zds.SelectInput.Dense.Sharp" parent="Zds.SelectInput.Dense">
+        <item name="boxCornerRadiusBottomEnd">0dp</item>
+        <item name="boxCornerRadiusBottomStart">0dp</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <com.zebra.zds.ZdsTabLayout
+        android:id="@+id/tabLayout"
+        style="@style/Zds.TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="0dp"
+        android:theme="@style/Zds.TabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabGravity="fill"
+        app:tabMode="fixed">
+
+        <com.zebra.zds.ZdsTabItem
+            android:id="@+id/tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:text="Tab1" />
+
+        <com.zebra.zds.ZdsTabItem
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:text="Tab2" />
+
+        <com.zebra.zds.ZdsTabItem
+            android:id="@+id/tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:text="Tab3" />
+
+    </com.zebra.zds.ZdsTabLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/zebra_black_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabLayout">
+
+        <com.zebra.zds.ZdsTabLayout
+            android:id="@+id/tabLayoutContinuous"
+            style="@style/Zds.TabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxWidth="0dp"
+            android:theme="@style/Zds.TabLayout"
+            app:tabGravity="fill"
+            app:tabMode="scrollable">
+
+            <com.zebra.zds.ZdsTabItem
+                android:id="@+id/tab1Scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:text="Tab1" />
+
+            <com.zebra.zds.ZdsTabItem
+                android:id="@+id/tab2Scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:text="Tab2" />
+
+            <com.zebra.zds.ZdsTabItem
+                android:id="@+id/tab3Scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:text="Tab3" />
+
+            <com.zebra.zds.ZdsTabItem
+                android:id="@+id/tab4Scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:text="Tab4" />
+
+            <com.zebra.zds.ZdsTabItem
+                android:id="@+id/tab5Scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:text="Tab5" />
+
+            <com.zebra.zds.ZdsTabItem
+                android:id="@+id/tab6Scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:text="Tab6" />
+
+        </com.zebra.zds.ZdsTabLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

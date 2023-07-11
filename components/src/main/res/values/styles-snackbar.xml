@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zds.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/zebra_snackbar</item>
+        <item name="colorSurfaceInverse">@color/zebra_grey_inverse</item>
+        <item name="colorSurface">@color/textPrimary</item>
+        <item name="animationMode">slide</item>
+        <item name="colorPrimary">@color/zebra_blue_inverse</item>
+        <item name="actionTextColorAlpha">1</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="Zds.Snackbar.Sharp" parent="Zds.Snackbar">
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="Zds.Snackbar.SnackbarButton" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="android:textColor">@color/zebra_blue_inverse</item>
+    </style>
+
+</resources>

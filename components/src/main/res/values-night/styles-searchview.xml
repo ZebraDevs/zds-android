@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zds.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="closeIcon">@drawable/ic_searchview_close</item>
+        <item name="collapseIcon">@drawable/ic_searchview_collapse</item>
+        <item name="queryHint">Search</item>
+        <item name="closeIconEnabled">true</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="android:textColorHint">@color/zebra_hint</item>
+        <item name="android:maxWidth">10000dp</item>
+    </style>
+
+    <style name="Zds.SearchView.Layout" parent="Zds.SearchView">
+        <item name="iconifiedByDefault">false</item>
+        <item name="colorSurface">@color/zebra_black_toolbar</item>
+        <item name="colorSurfaceVariant">@color/zebra_blue_enabled</item>
+        <item name="colorSurfaceInverse">@color/zebra_black_inverse</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="iconTint">@color/zebra_grey_track</item>
+        <item name="queryBackground">@null</item>
+        <item name="colorControlNormal">@color/textPrimary</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="colorAccent">@color/zebra_blue_enabled</item>
+    </style>
+
+    <style name="Zds.SearchView.Layout.Inverse" parent="Zds.SearchView">
+        <item name="iconifiedByDefault">false</item>
+        <item name="colorSurface">@color/zebra_black_toolbar</item>
+        <item name="colorSurfaceVariant">@color/zebra_blue_enabled</item>
+        <item name="colorSurfaceInverse">@color/zebra_black_inverse</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="queryBackground">@null</item>
+        <item name="iconTint">@color/zebra_grey_track</item>
+        <item name="colorControlNormal">@color/textPrimary</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="colorAccent">@color/zebra_blue_enabled</item>
+    </style>
+</resources>

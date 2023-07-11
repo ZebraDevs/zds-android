@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+
+    <com.zebra.zds.ZdsCheckBox
+        android:id="@+id/option1"
+        style="@style/Zds.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Zds.CheckBox"
+        app:checkedState="indeterminate" />
+
+    <com.zebra.zds.ZdsCheckBox
+        android:id="@+id/option2"
+        style="@style/Zds.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:enabled="true"
+        android:theme="@style/Zds.CheckBox" />
+
+    <com.zebra.zds.ZdsCheckBox
+        android:id="@+id/optionLabel"
+        style="@style/Zds.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option label"
+        android:theme="@style/Zds.CheckBox"
+        tools:ignore="HardcodedText" />
+
+    <com.zebra.zds.ZdsCheckBox
+        android:id="@+id/optionLabelDisabled"
+        style="@style/Zds.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:enabled="false"
+        android:text="Option label"
+        android:theme="@style/Zds.CheckBox"
+        tools:ignore="HardcodedText" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zds.CheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">@drawable/checkbox_selector</item>
+        <item name="buttonIconTint">@drawable/checkbox_icon_selector</item>
+        <item name="colorPrimary">@color/zebra_blue_enabled</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@color/zebra_hint</item>
+        <item name="colorOnSurface">@color/zebra_grey_track_disabled</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

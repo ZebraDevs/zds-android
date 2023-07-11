@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:paddingStart="6dp"
+    android:background="@drawable/dropdown_item_bg_selector">
+
+    <com.zebra.zds.ZdsCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false"
+        style="@style/Zds.CheckBox"
+        android:theme="@style/Zds.CheckBox"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:textAppearance="@style/Zds.Dropdown"
+        tools:text="Menu Item"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

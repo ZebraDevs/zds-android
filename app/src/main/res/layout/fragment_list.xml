@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/listControls"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.zebra.zds.ZdsCheckBox
+            android:id="@+id/dividers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Zds.CheckBox"
+            android:theme="@style/Zds.CheckBox"
+            android:text="Show dividers" />
+
+        <com.zebra.zds.ZdsCheckBox
+            android:id="@+id/iconLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Zds.CheckBox"
+            android:theme="@style/Zds.CheckBox"
+            android:text="Image Left" />
+
+        <RadioGroup
+            android:id="@+id/controlsRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.zebra.zds.ZdsRadioButton
+                android:id="@+id/showImageRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Zds.RadioButton"
+                android:theme="@style/Zds.RadioButton"
+                android:text="Image Right" />
+
+            <com.zebra.zds.ZdsRadioButton
+                android:id="@+id/showMeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Zds.RadioButton"
+                android:theme="@style/Zds.RadioButton"
+                android:text="Meta" />
+
+            <com.zebra.zds.ZdsRadioButton
+                android:id="@+id/showActionView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Zds.RadioButton"
+                android:theme="@style/Zds.RadioButton"
+                android:text="Action" />
+
+        </RadioGroup>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="?attr/colorSurface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listControls" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

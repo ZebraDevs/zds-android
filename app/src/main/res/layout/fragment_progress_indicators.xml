@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:zebra="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider"
+    app:showDividers="middle">
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/progressSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50" />
+
+    <com.zebra.zds.ZdsLinearProgressIndicator
+        android:id="@+id/progressIndicatorLinear"
+        style="@style/Zds.LinearProgressIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Zds.LinearProgressIndicator"
+        zebra:buffering="true"
+        zebra:indeterminate="false"
+        zebra:max="100"
+        zebra:progress="50" />
+
+    <com.zebra.zds.ZdsLinearProgressIndicator
+        android:id="@+id/progressIndicatorLinearMedium"
+        style="@style/Zds.LinearProgressIndicator.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:theme="@style/Zds.LinearProgressIndicator.Medium"
+        zebra:buffering="true"
+        zebra:indeterminate="false"
+        zebra:max="100"
+        zebra:progress="50" />
+
+    <com.zebra.zds.ZdsLinearProgressIndicator
+        android:id="@+id/progressIndicatorLinearNoLabel"
+        style="@style/Zds.LinearProgressIndicator.Medium.Sharp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:theme="@style/Zds.LinearProgressIndicator.Medium.Sharp"
+        zebra:max="100"
+        zebra:progress="50" />
+
+    <com.zebra.zds.ZdsLinearProgressIndicator
+        android:id="@+id/progressIndicatorLinearIndeterminate"
+        style="@style/Zds.LinearProgressIndicator.Sharp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:theme="@style/Zds.LinearProgressIndicator.Sharp"
+        zebra:indeterminate="true"
+        zebra:label="Indeterminate" />
+
+    <com.zebra.zds.ZdsCircularProgressIndicator
+        android:id="@+id/progressIndicatorCircular"
+        style="@style/Zds.CircularProgressIndicator"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:theme="@style/Zds.CircularProgressIndicator"
+        zebra:indeterminate="false"
+        zebra:max="100"
+        zebra:progress="50" />
+
+    <com.zebra.zds.ZdsCircularProgressIndicator
+        android:id="@+id/progressIndicatorCircularIndeterminate"
+        style="@style/Zds.CircularProgressIndicator.Sharp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:theme="@style/Zds.CircularProgressIndicator.Sharp"
+        zebra:indeterminate="true" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

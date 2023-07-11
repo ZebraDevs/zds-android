@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <com.zebra.zds.ZdsButton
+        android:id="@+id/start_contextual_mode"
+        style="@style/Zds.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter contextual mode"
+        android:theme="@style/Zds.Button.Primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.zebra.zds.ZdsToolbar
+        android:id="@+id/toolbar_avatar"
+        style="@style/Zds.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="24dp"
+        android:theme="@style/Zds.Toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_contextual_mode"
+        app:logo="@drawable/ic_baseline_emoji_emotions_24"
+        app:menu="@menu/app_menu"
+        app:navigationIcon="@drawable/ic_baseline_menu_24"
+        app:navigationIconTint="@android:color/white"
+        app:title="@string/app_name"
+        app:titleCentered="true"
+        app:titleMarginTop="16dp" />
+
+    <com.zebra.zds.ZdsToolbar
+        android:id="@+id/toolbar_search"
+        style="@style/Zds.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="24dp"
+        android:theme="@style/Zds.Toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_avatar"
+        app:menu="@menu/search_menu"
+        app:navigationIcon="@drawable/ic_baseline_menu_24"
+        app:navigationIconTint="@android:color/white"
+        app:title="@string/app_name"
+        app:titleMarginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_corner_size_circle">50%</dimen>
+    <dimen name="fab_corner_size_rounded">30%</dimen>
+    <dimen name="fab_size">64dp</dimen>
+
+    <dimen name="prefix_max_width">24dp</dimen>
+    <dimen name="text_input_corner_radius">4dp</dimen>
+</resources>

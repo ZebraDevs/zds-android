@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Zds.FAB.Primary" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="colorPrimaryContainer">@color/zebra_blue_enabled</item>
+        <item name="colorOnPrimaryContainer">@color/textPrimary</item>
+        <item name="iconTint">@color/textPrimary</item>
+        <item name="rippleColor">@color/zebra_blue_pressed</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="Zds.FAB.Variant" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="colorPrimaryContainer">@color/zebra_yellow_enabled</item>
+        <item name="colorOnPrimaryContainer">@color/textPrimaryVariant</item>
+        <item name="iconTint">@color/textPrimaryVariant</item>
+        <item name="rippleColor">@color/zebra_yellow_pressed</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="Zds.FAB.Inverse" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="colorPrimaryContainer">@color/zebra_black_inverse</item>
+        <item name="colorOnPrimaryContainer">@color/textPrimary</item>
+        <item name="iconTint">@color/textPrimary</item>
+        <item name="rippleColor">@color/zebra_hint</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="Zds.FAB.Extended.Primary" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="colorContainer">@color/zebra_blue_enabled</item>
+        <item name="colorOnContainer">@color/textPrimary</item>
+        <item name="iconTint">@color/textPrimary</item>
+        <item name="rippleColor">@color/zebra_blue_pressed</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="Zds.FAB.Extended.Variant" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="colorPrimaryContainer">@color/zebra_yellow_enabled</item>
+        <item name="colorOnPrimaryContainer">@color/textPrimaryVariant</item>
+        <item name="iconTint">@color/textPrimaryVariant</item>
+        <item name="rippleColor">@color/zebra_yellow_pressed</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="Zds.FAB.Extended.Inverse" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="colorPrimaryContainer">@color/zebra_black_inverse</item>
+        <item name="colorOnPrimaryContainer">@color/textPrimary</item>
+        <item name="iconTint">@color/textPrimary</item>
+        <item name="iconPadding">8dp</item>
+        <item name="rippleColor">@color/zebra_hint</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="Zds.FAB.Shape.Circle" parent="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton">
+        <item name="cornerSize">@dimen/fab_corner_size_circle</item>
+    </style>
+
+    <style name="Zds.FAB.Shape.Rounded" parent="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton">
+        <item name="cornerSize">@dimen/fab_corner_size_rounded</item>
+    </style>
+
+    <style name="Zds.FAB.Shape.Sharp" parent="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton">
+        <item name="cornerSize">0dp</item>
+    </style>
+
+</resources>
