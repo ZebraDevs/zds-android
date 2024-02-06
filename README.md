@@ -4,16 +4,30 @@ Zebra Design System components for Android.
 
 ## Setup
 
-This has been tested with `compileSdkVersion 34`. Other sdk versions may require additional work.
+> 🚧 **Note**: This has been verified with`compileSdkVersion 34`. Other sdk versions may require additional work.
 
-1. Add Zebra Maven repository to `settings.gradle`:
+1. ZDS-Android is hosted on Zebra's internal Artifactory repository. Credentials for this are required, and can be obtained by logging onto [Artifactory](https://artifactory-us.zebra.com). Once logged in with SSO, select your username in the top right corner, and select set me up. Select `Maven`, then `Generate Token & Create Instructions`. This generated token is your password.
 
+2. It is recommended for individuals to save their username and password in their global `gradle.properties` file:
+
+```gradle
+    artifactusername=XXX
+    artifactpassword=YYY
 ```
+
+These credentials should **_never_** be shared.
+
+2. Add Zebra Maven repository to `settings.gradle`:
+
+```gradle
 dependencyResolutionManagement {
     repositories {
-        maven {
-            ...
-            url "https://zebratech.jfrog.io/artifactory/zds-android/"
+        maven{
+            url "https://artifactory-us.zebra.com/artifactory/dmo-mvn-rel/"
+            credentials {
+                username = "${artifactusername}"
+                password = "${artifactpassword}"
+            }
         }
     }
 }
@@ -25,11 +39,12 @@ dependencyResolutionManagement {
 dependencies {
     ...
     implementation 'com.zebra:zds:1.0.0'
-    ...
 }
 ```
 
-3. To use and style the components in `AndroidManifest.xml` place in the application tag the base Zebra theme, and be sure to remove other styles if they could override this incorrectly.
+Once this is added, your IDE should
+
+3. For the components to work and receive the correct theme values, we must add the theme n `AndroidManifest.xml`. Be sure to remove other themes which could override this and prevent the components from working.
 
 ```xml
 <application
