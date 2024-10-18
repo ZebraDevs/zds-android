@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:paddingStart="12dp"
+        style="@style/TextAppearance.Zds.BodyMedium"
         android:textAppearance="@style/Zds.Dropdown"
         tools:text="Menu Item"/>
 </FrameLayout>

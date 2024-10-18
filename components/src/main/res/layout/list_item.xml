@@ -29,21 +29,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="@id/iconRight">
 
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/descriptor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="?attr/android:textColorSecondary"
-            android:textSize="12sp"
-            tools:text="Descriptor" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="?attr/android:textColorPrimaryInverse"
-            android:textSize="16sp"
+            style="@style/TextAppearance.Zds.BodyMedium"
             tools:text="List Item" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/descriptor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/android:textColorSecondary"
+            style="@style/TextAppearance.Zds.BodySmall"
+            tools:text="Descriptor" />
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.constraintlayout.widget.Guideline
@@ -71,6 +73,7 @@
         tools:text="Meta"
         android:textColor="?attr/android:textColorSecondary"
         android:textSize="14sp"
+        style="@style/TextAppearance.Zds.DisplayLarge"
         android:visibility="gone"
         app:layout_constraintStart_toEndOf="@id/guideline_end"
         app:layout_constraintTop_toTopOf="parent"

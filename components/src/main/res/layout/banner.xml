@@ -40,13 +40,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
+            style="@style/TextAppearance.Zds.LabelLarge"
             android:textColor="?android:attr/textColorPrimaryInverse"
-            tools:text="Banner Title"
-            android:textStyle="bold"
-            android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@id/close"
             app:layout_constraintStart_toEndOf="@id/image"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Banner Title" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/message"
@@ -55,8 +54,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
-            android:textSize="14sp"
-            android:textColor="?android:attr/textColorPrimaryInverse"
+            android:textAppearance="@style/TextAppearance.Zds.BodySmall"
             app:layout_constraintEnd_toStartOf="@id/close"
             app:layout_constraintStart_toEndOf="@id/image"
             app:layout_constraintTop_toBottomOf="@id/title"
@@ -83,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="8dp"
-            android:textColor="?android:attr/textColorPrimaryInverse"
+
             android:theme="@style/Zds.Button.Outline.Subtle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/actionOne"

@@ -28,8 +28,7 @@
             android:layout_marginStart="8dp"
             android:gravity="center_vertical"
             android:textColor="?android:attr/textColorPrimaryInverse"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            style="@style/TextAppearance.Zds.LabelLarge"
             tools:text="Banner Title" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -42,6 +41,7 @@
         android:theme="@style/Zds.IconButton.Basic"
         app:icon="@drawable/ic_arrow_forward"
         app:iconPadding="0dp"
+
         app:iconTint="@color/textPrimaryVariant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

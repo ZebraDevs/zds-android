@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Zds.Toolbar" parent="Widget.Material3.Toolbar.Surface">
         <item name="colorSurface">@color/zebra_black_toolbar</item>
         <item name="navigationIconTint">@android:color/white</item>
@@ -8,6 +9,7 @@
         <item name="materialThemeOverlay">@style/Zds.ToolbarOverlay</item>
         <item name="contentScrim">@android:color/white</item>
         <item name="android:textColorHint">@color/zebra_hint</item>
+
     </style>
 
     <style name="Zds.ToolbarOverlay" parent="">

@@ -3,7 +3,43 @@
     <dimen name="fab_corner_size_circle">50%</dimen>
     <dimen name="fab_corner_size_rounded">30%</dimen>
     <dimen name="fab_size">64dp</dimen>
-
     <dimen name="prefix_max_width">24dp</dimen>
     <dimen name="text_input_corner_radius">4dp</dimen>
+
+
+    <dimen name='text_size_display_large'>52sp</dimen>
+    <dimen name='text_size_display_medium'>44sp</dimen>
+    <dimen name='text_size_display_small'>36sp</dimen>
+    <dimen name='text_size_heading_large'>32sp</dimen>
+    <dimen name='text_size_heading_medium'>28sp</dimen>
+    <dimen name='text_size_heading_small'>24sp</dimen>
+    <dimen name='text_size_title_large'>20sp</dimen>
+    <dimen name='text_size_title_medium'>16sp</dimen>
+    <dimen name='text_size_title_small'>12sp</dimen>
+    <dimen name='text_size_body_large'>20sp</dimen>
+    <dimen name='text_size_body_medium'>16sp</dimen>
+    <dimen name='text_size_body_small'>14sp</dimen>
+    <dimen name='text_size_body_x_small'>12sp</dimen>
+    <dimen name='text_size_label_large'>16sp</dimen>
+    <dimen name='text_size_label_medium'>14sp</dimen>
+    <dimen name='text_size_label_small'>12sp</dimen>
+    <dimen name='text_size_label_indicator'>12sp</dimen>
+
+    <dimen name='text_height_display_large'>60sp</dimen>
+    <dimen name='text_height_display_medium'>52sp</dimen>
+    <dimen name='text_height_display_small'>40sp</dimen>
+    <dimen name='text_height_heading_large'>36sp</dimen>
+    <dimen name='text_height_heading_medium'>28sp</dimen>
+    <dimen name='text_height_heading_small'>24sp</dimen>
+    <dimen name='text_height_title_large'>20sp</dimen>
+    <dimen name='text_height_title_medium'>20sp</dimen>
+    <dimen name='text_height_title_small'>16sp</dimen>
+    <dimen name='text_height_body_large'>24sp</dimen>
+    <dimen name='text_height_body_medium'>24sp</dimen>
+    <dimen name='text_height_body_small'>18sp</dimen>
+    <dimen name='text_height_body_x_small'>16sp</dimen>
+    <dimen name='text_height_label_large'>24sp</dimen>
+    <dimen name='text_height_label_medium'>20sp</dimen>
+    <dimen name='text_height_label_small'>16sp</dimen>
+    <dimen name='text_height_label_indicator'>14sp</dimen>
 </resources>

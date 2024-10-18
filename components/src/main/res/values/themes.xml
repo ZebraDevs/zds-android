@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.ZdsBase" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/zebra_black_toolbar</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -22,11 +23,28 @@
         <item name="popupMenuBackground">@color/background</item>
         <item name="textAppearanceLargePopupMenu">@style/Zds.Dropdown</item>
         <item name="textAppearanceSmallPopupMenu">@style/Zds.Dropdown</item>
-
         <item name="overlapAnchor">false</item>
-
         <item name="snackbarStyle">@style/Zds.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Zds.Snackbar.SnackbarButton</item>
+
+        <item name="android:textViewStyle">@style/TextAppearance.Zds.BodyMedium</item>
+        <item name='android:fontFamily'>@font/ibm_plex_sans</item>
+        <item name='fontFamily'>@font/ibm_plex_sans</item>
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.Zds.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.Zds.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.Zds.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Zds.HeadingLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Zds.HeadingMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.Zds.HeadingSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Zds.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Zds.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.Zds.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Zds.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Zds.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Zds.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Zds.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Zds.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Zds.LabelSmall</item>
     </style>
 
 </resources>

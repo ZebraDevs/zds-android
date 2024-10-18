@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Zds.Button.Primary" parent="Widget.Material3.Button">
         <item name="colorContainer">@color/zebra_blue_enabled</item>
         <item name="colorOnContainer">@color/textPrimary</item>
@@ -12,6 +13,8 @@
         <item name="textAllCaps">false</item>
         <item name="android:textSize">16sp</item>
         <item name="iconSize">18dp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="fontFamily">@font/ibm_plex_sans_medium</item>
     </style>
 
     <style name="Zds.Button.Primary.Sharp" parent="Zds.Button.Primary">
@@ -26,6 +29,8 @@
         <item name="cornerRadius">4dp</item>
         <item name="textAllCaps">false</item>
         <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="strokeColor">@color/zebra_blue_enabled</item>
         <item name="strokeWidth">1dp</item>
         <item name="iconSize">18dp</item>
@@ -43,6 +48,8 @@
         <item name="cornerRadius">4dp</item>
         <item name="textAllCaps">false</item>
         <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="strokeColor">@color/zebra_grey_subtle_stroke</item>
         <item name="strokeWidth">1dp</item>
         <item name="iconSize">18dp</item>
@@ -60,6 +67,8 @@
         <item name="cornerRadius">4dp</item>
         <item name="textAllCaps">false</item>
         <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="iconSize">18dp</item>
     </style>
 
@@ -75,6 +84,8 @@
         <item name="cornerRadius">4dp</item>
         <item name="textAllCaps">false</item>
         <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="iconSize">18dp</item>
     </style>
 

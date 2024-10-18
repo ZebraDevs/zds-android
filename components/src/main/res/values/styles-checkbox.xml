@@ -8,6 +8,7 @@
         <item name="colorSurface">@color/zebra_grey_track_disabled</item>
         <item name="colorOnSurface">@color/zebra_hint</item>
         <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/ibm_plex_sans_regular</item>
     </style>
 
 </resources>

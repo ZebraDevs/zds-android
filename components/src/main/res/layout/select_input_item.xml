@@ -6,4 +6,5 @@
     android:padding="16dp"
     android:ellipsize="end"
     android:maxLines="1"
+    style="@style/TextAppearance.Zds.BodyMedium"
     android:textAppearance="@style/Zds.Dropdown" />
