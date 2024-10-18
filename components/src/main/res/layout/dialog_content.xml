@@ -10,6 +10,6 @@
     android:paddingRight="12dp"
     android:paddingTop="8dp"
     android:paddingBottom="24dp"
-    android:textSize="14sp"
+    style="@style/TextAppearance.Zds.BodyMedium"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" />

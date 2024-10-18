@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
+        style="@style/TextAppearance.Zds.BodyMedium"
         android:textAppearance="@style/Zds.Dropdown"
         tools:text="Menu Item"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
