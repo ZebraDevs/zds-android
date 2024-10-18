@@ -39,7 +39,7 @@ dependencyResolutionManagement {
 
 ```
 dependencies {
-    implementation 'com.zebra:zds:1.0.0'
+    implementation 'com.zebra:zds:1.1.0'
 }
 ```
 
