@@ -10,10 +10,6 @@ jobs:
     permissions:
       id-token: write
     environment: artifactory
-    env:
-      username: ${{ secrets.ARTIFACTORY_USERNAME }}
-      password: ${{ secrets.ARTIFACTORY_PASSWORD }}
-      zds-android-maven: ${{ secrets.ZDS_ANDROID_MAVEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -27,6 +23,5 @@ jobs:
           echo "username=${{secrets.ARTIFACTORY_USERNAME}}" >> gradle.properties
           echo "password=${{secrets.ARTIFACTORY_PASSWORD}}" >> gradle.properties 
           echo "zds-android-maven=${{secrets.ZDS_ANDROID_MAVEN}}" >> gradle.properties
-
       - name: Publish
-        run: gradle publish -P publish=rel
+        run: gradle publish -P publish=dev

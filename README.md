@@ -45,8 +45,6 @@ dependencies {
 
 <!-- x-release-please-end -->
 
-Once this is added, your IDE should
-
 3. For the components to work and receive the correct theme values, we must add the theme n `AndroidManifest.xml`. Be sure to remove other themes which could override this and prevent the components from working.
 
 ```xml
