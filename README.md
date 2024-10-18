@@ -35,12 +35,15 @@ dependencyResolutionManagement {
 
 2. Add dependency to **app-level** `build.gradle`
 
+<!-- x-release-please-start-version -->
+
 ```
 dependencies {
-    ...
     implementation 'com.zebra:zds:1.0.0'
 }
 ```
+
+<!-- x-release-please-end -->
 
 Once this is added, your IDE should
 
