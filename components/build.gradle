@@ -58,12 +58,18 @@ publishing {
     }
 
     repositories {
-        maven {
-            credentials {
-                username =  project.property('username')
-                password = project.property('password')
-            }
-            url = project.property('zds-android-maven')  + project.property('publish')
-        }
+        // maven {
+        //     credentials {
+        //         username =  project.property('artifactoryusername')
+        //         password = project.property('artifactorypassword')
+        //     }
+        //     url = project.property('zds-android-maven')  + project.property('publish')
+        // }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
     }
 }

@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
         // Setup Navigation view header and footer
         ((TextView) navView.getHeaderView(0).findViewById(R.id.title)).setText("Title");
         ((TextView) navView.getHeaderView(0).findViewById(R.id.subtitle)).setText("Subtitle");
-        ((TextView) findViewById(R.id.footer_subtitle)).setText("version " + BuildConfig.VERSION_NAME);
+//        ((TextView) findViewById(R.id.footer_subtitle)).setText("version " + BuildConfig.VERSION_NAME);
 
         ((AppCompatImageView) navView.getHeaderView(0).findViewById(R.id.image)).setImageResource(R.drawable.ic_baseline_emoji_emotions_24);
         ((ZdsIconButton) navView.getHeaderView(0).findViewById(R.id.action)).setIconTint(ColorStateList.valueOf(Color.WHITE));
