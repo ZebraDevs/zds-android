@@ -1,6 +1,6 @@
 # zds-android components
 
-## [Setup](../../README.md)
+## [Setup](../../../README.md)
 
 ### Table of Contents:
 

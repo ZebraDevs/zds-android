@@ -71,8 +71,12 @@ Once this is added, your IDE should
 
 ---
 
-# [Component Documentation](./components/docs/index.md)
+# [Component Documentation](./components/docs/components/index.md)
+
+# [Theme Documentation](./components/docs/theme/index.md)
 
 ---
 
 ## [License](./LICENSE)
+
+## [Third party Licenses](./)
