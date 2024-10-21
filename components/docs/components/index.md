@@ -1,12 +1,12 @@
 # zds-android components
 
-## [Setup](../../README.md)
+## [Setup](../../../README.md)
 
 ### Table of Contents:
 
 1. [ZdsButton](#ZdsButton)
 2. [ZdsIconButton](#ZdsIconButton)
-3. [ZdsFAB and ZdsExtendedFAB](#FAB)
+3. [ZdsFAB and ZdsExtendedFAB](#ZdsFAB)
 4. [ZdsTextInput](#ZdsTextInput)
 5. [ZdsSwitch](#ZdsSwitch)
 6. [ZdsRadioButton](#ZdsRadioButton)
@@ -14,8 +14,8 @@
 8. [ZdsLinearProgressIndicator](#ZdsLinearProgressIndicator)
 9. [ZdsCircularProgressIndicator](#ZdsCircularProgressIndicator)
 10. [ZdsToolbar](#ZdsToolbar)
-11. [ZdsTabLayout and ZdsTabItem](#Tabs)
-12. [ZdsListItem](#Lists)
+11. [ZdsTabLayout and ZdsTabItem](#ZdsTabLayout)
+12. [ZdsListItem](#ZdsListItem)
 13. [ZdsDialog](#ZdsDialog)
 14. [Dropdown](#Dropdown)
 15. [ZdsSearchView](#ZdsSearchView)
@@ -105,7 +105,7 @@ its properties. Another way is to override attributes in the XML layout file.
 
 <a name="FAB"></a>
 
-## ZdsFAB and ZdsExtendedFAB
+## ZdsFAB
 
 ## Class:
 
@@ -451,7 +451,7 @@ To make it expandable it should be included in a CoordinatorLayout like this:<br
 
 <a name="Tabs"></a>
 
-## ZdsTabLayout and ZdsTabItem
+## ZdsTabLayout
 
 ## Class:
 

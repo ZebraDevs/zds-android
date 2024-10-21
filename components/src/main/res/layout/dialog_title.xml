@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    xmlns:tools="http://schemas.android.com/tools"
     android:paddingLeft="12dp"
-    android:paddingRight="12dp"
     android:paddingTop="12dp"
+    android:paddingRight="12dp"
     android:paddingBottom="4dp">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -16,15 +15,15 @@
         android:layout_height="36dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
-        tools:srcCompat="@drawable/ic_error"/>
+        tools:srcCompat="@drawable/ic_error" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/titleText"
+        style="@style/TextAppearance.Zds.HeadingSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="?android:attr/textColorPrimaryInverse"
         android:layout_gravity="center"
         android:layout_marginTop="8dp"
-        style="@style/TextAppearance.Zds.HeadingSmall"
-        tools:text="Dialog title"/>
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        tools:text="Dialog title" />
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.ZdsBase" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/zebra_black_toolbar</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

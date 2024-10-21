@@ -31,7 +31,7 @@ public class SelectInputFragment extends Fragment {
         items.add("Item 3");
         items.add("Item 4");
 
-        ZdsSelectInput selectInput = Objects.requireNonNull(getView()).findViewById(R.id.zebra_select_input);
+        ZdsSelectInput selectInput = requireView().findViewById(R.id.zebra_select_input);
         selectInput.setPlaceholder("Placeholder");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), R.layout.select_input_item, items);

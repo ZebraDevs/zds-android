@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="64dp"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
     android:background="?android:attr/statusBarColor"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/image"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        tools:tint="@color/zebra_control_inverse"
-        tools:srcCompat="@drawable/ic_round_warning"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        tools:srcCompat="@drawable/ic_round_warning"
+        tools:tint="@color/zebra_control_inverse" />
 
     <com.zebra.zds.ZdsIconButton
         android:id="@+id/action"
+        style="@style/Zds.IconButton.Basic"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        style="@style/Zds.IconButton.Basic"
         android:theme="@style/Zds.IconButton.Basic"
-        tools:iconTint="@color/zebra_control_inverse"
-        tools:icon="@drawable/ic_round_warning"
         app:iconPadding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        tools:icon="@drawable/ic_round_warning"
+        tools:iconTint="@color/zebra_control_inverse" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="start"
-        tools:text="Title"
-        android:textSize="18sp"
-        android:textColor="@color/textPrimary"
         android:layout_marginStart="16dp"
-        app:layout_constraintTop_toTopOf="@id/image"
+        android:gravity="start"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@id/action"
         app:layout_constraintStart_toEndOf="@id/image"
-        app:layout_constraintEnd_toStartOf="@id/action"/>
+        app:layout_constraintTop_toTopOf="@id/image"
+        tools:text="Title" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/subtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="start"
-        tools:text="Subitle"
-        android:textSize="12sp"
-        android:textColor="@color/zebra_hint"
         android:layout_marginStart="16dp"
-        app:layout_constraintTop_toBottomOf="@id/title"
+        android:gravity="start"
+        android:textColor="@color/zebra_hint"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@id/action"
         app:layout_constraintStart_toEndOf="@id/image"
-        app:layout_constraintEnd_toStartOf="@id/action"/>
+        app:layout_constraintTop_toBottomOf="@id/title"
+        tools:text="Subitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

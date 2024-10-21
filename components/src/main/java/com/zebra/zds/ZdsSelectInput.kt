@@ -67,7 +67,14 @@ class ZdsSelectInput : FrameLayout {
         textInputLayout = inflatedView.findViewById(R.id.textInputLayout)
         textInputEditText = inflatedView.findViewById(R.id.textInputEditText)
 
-        textInputLayout?.setEndIconTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.zebra_control)))
+        textInputLayout?.setEndIconTintList(
+            ColorStateList.valueOf(
+                ContextCompat.getColor(
+                    context,
+                    R.color.zebra_control
+                )
+            )
+        )
 
         attrs?.let {
             val a: TypedArray = context.obtainStyledAttributes(it, R.styleable.ZdsSelectInput)

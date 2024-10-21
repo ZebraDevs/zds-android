@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="40dp"
-    android:paddingStart="6dp"
-    android:background="@drawable/dropdown_item_bg_selector">
+    android:background="@drawable/dropdown_item_bg_selector"
+    android:orientation="horizontal"
+    android:paddingStart="6dp">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/image"
@@ -14,15 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="true"
-        tools:src="@drawable/ic_error"/>
+        tools:src="@drawable/ic_error" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/text"
+        style="@style/TextAppearance.Zds.BodyMedium"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:paddingStart="6dp"
-        style="@style/TextAppearance.Zds.BodyMedium"
         android:textAppearance="@style/Zds.Dropdown"
-        tools:text="Menu Item"/>
+        tools:text="Menu Item" />
 </androidx.appcompat.widget.LinearLayoutCompat>

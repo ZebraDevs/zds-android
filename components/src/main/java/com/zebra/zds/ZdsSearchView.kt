@@ -13,8 +13,7 @@ class ZdsSearchView @JvmOverloads constructor(
         setOnQueryTextFocusChangeListener { _, hasFocus ->
             if (hasFocus) {
                 setBackgroundResource(R.drawable.searchview_bg_selected)
-            }
-            else {
+            } else {
                 setBackgroundResource(R.drawable.searchview_bg)
             }
         }

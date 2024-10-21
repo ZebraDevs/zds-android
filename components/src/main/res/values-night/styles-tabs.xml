@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Zds.TabLayout" parent="Widget.Design.TabLayout">
         <item name="colorSurface">@color/textPrimaryVariant</item>
         <item name="colorPrimary">@color/textPrimary</item>
@@ -18,5 +19,5 @@
         <item name="android:textSize">14sp</item>
         <item name="textAllCaps">false</item>
     </style>
-    
+
 </resources>

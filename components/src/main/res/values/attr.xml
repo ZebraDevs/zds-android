@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="label" format="string|reference"/>
-    <attr format="boolean" name="indeterminate"/>
-    <attr format="integer" name="max"/>
-    <attr format="integer" name="progress"/>
-    <attr name="hint" format="string|reference"/>
-    <attr format="reference" name="startIconDrawable"/>
+    <attr name="label" format="string|reference" />
+    <attr name="indeterminate" format="boolean" />
+    <attr name="max" format="integer" />
+    <attr name="progress" format="integer" />
+    <attr name="hint" format="string|reference" />
+    <attr name="startIconDrawable" format="reference" />
 
     <declare-styleable name="ZdsTextInput">
-        <attr name="label"/>
-        <attr name="hint"/>
+        <attr name="label" />
+        <attr name="hint" />
 
-        <attr format="string" name="prefixText"/>
-        <attr format="string" name="suffixText"/>
+        <attr name="prefixText" format="string" />
+        <attr name="suffixText" format="string" />
 
-        <attr name="startIconDrawable"/>
-        <attr format="reference" name="endIconDrawable"/>
+        <attr name="startIconDrawable" />
+        <attr name="endIconDrawable" format="reference" />
 
         <attr name="label_style" format="enum">
             <enum name="none" value="0" />
-            <enum name="mandatory" value="1"/>
-            <enum name="optional" value="2"/>
+            <enum name="mandatory" value="1" />
+            <enum name="optional" value="2" />
         </attr>
     </declare-styleable>
 
     <declare-styleable name="ZdsSelectInput">
-        <attr name="hint"/>
-        <attr name="startIconDrawable"/>
+        <attr name="hint" />
+        <attr name="startIconDrawable" />
     </declare-styleable>
 
     <declare-styleable name="ZdsLinearProgressIndicator">
-        <attr name="label"/>
+        <attr name="label" />
 
-        <attr name="indeterminate"/>
-        <attr name="max"/>
-        <attr name="progress"/>
+        <attr name="indeterminate" />
+        <attr name="max" />
+        <attr name="progress" />
 
-        <attr format="boolean" name="buffering"/>
-        <attr format="dimension" name="trackThickness"/>
+        <attr name="buffering" format="boolean" />
+        <attr name="trackThickness" format="dimension" />
     </declare-styleable>
 
     <declare-styleable name="ZdsCircularProgressIndicator">
-        <attr name="label"/>
+        <attr name="label" />
 
-        <attr name="indeterminate"/>
-        <attr name="max"/>
-        <attr name="progress"/>
+        <attr name="indeterminate" />
+        <attr name="max" />
+        <attr name="progress" />
     </declare-styleable>
 
-    <attr name="title" format="string|reference"/>
+    <attr name="title" format="string|reference" />
 
 
     <declare-styleable name="ZdsBanner">
-        <attr name="message" format="string|reference"/>
-        <attr name="title"/>
+        <attr name="message" format="string|reference" />
+        <attr name="title" />
 
         <attr name="banner_style" format="enum">
             <enum name="none" value="0" />
-            <enum name="info" value="1"/>
-            <enum name="positive" value="2"/>
-            <enum name="warning" value="3"/>
-            <enum name="negative" value="4"/>
+            <enum name="info" value="1" />
+            <enum name="positive" value="2" />
+            <enum name="warning" value="3" />
+            <enum name="negative" value="4" />
         </attr>
-        <attr name="isSharp" format="boolean"/>
+        <attr name="isSharp" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="ZdsSystemBanner">
-        <attr name="title"/>
-        <attr name="title_centered" format="boolean"/>
+        <attr name="title" />
+        <attr name="title_centered" format="boolean" />
 
         <attr name="system_banner_style" format="enum">
             <enum name="none" value="0" />
-            <enum name="positive" value="1"/>
-            <enum name="warning" value="2"/>
-            <enum name="negative" value="3"/>
+            <enum name="positive" value="1" />
+            <enum name="warning" value="2" />
+            <enum name="negative" value="3" />
         </attr>
     </declare-styleable>
 </resources>

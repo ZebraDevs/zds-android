@@ -2,10 +2,10 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/badge_background"
     android:gravity="center_vertical"
     android:padding="4dp"
-    android:visibility="gone"
-    android:layout_marginTop="8dp"
+    android:textAppearance="@style/TextAppearance.Zds.LabelSmall"
     android:textColor="@color/textPrimary"
-    android:background="@drawable/badge_background"
-    android:textAppearance="@style/TextAppearance.Zds.LabelSmall" />
+    android:visibility="gone" />

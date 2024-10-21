@@ -158,6 +158,7 @@ class ZdsTextInput : FrameLayout {
                 )
                 labelText?.text = labelStringMandatory
             }
+
             LabelStyle.OPTIONAL -> {
                 val optionalString = context.getString(R.string.optional)
                 val labelStringOptional = SpannableString("$labelString $optionalString")
