@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#599FE5</color>
+    <color name="colorPrimaryDark">#0061C2</color>
     <color name="colorAccent">#FFFFFF</color>
-    <color name="background">#0C0D0E</color>
+    <color name="background">#151519</color>
 
-    <color name="textPrimary">#FFFFFF</color>
+    <color name="textPrimary">#F3F6FA</color>
     <color name="textPrimaryVariant">#1D1E23</color>
-    <color name="textDisabled">#646A78</color>
+    <color name="textDisabled">#7A8190</color>
     <color name="textSecondary">#AFB6C2</color>
 
-    <color name="zebra_grey_disabled">#2C2F36</color>
+    <color name="zebra_grey_disabled">#7A8190</color>
     <color name="zebra_grey_subtle_stroke">#3C414B</color>
-    <color name="zebra_grey_subtle_icon">#FFFFFF</color>
+    <color name="zebra_grey_subtle_icon">#BBC1CB</color>
     <color name="zebra_grey_inverse">#CED2DB</color>
-    <color name="zebra_grey_track_disabled">#3C414B</color>
-    <color name="zebra_grey_thumb_disabled">#99A1B2</color>
+    <color name="zebra_grey_track_disabled">#2C2F36</color>
+    <color name="zebra_grey_thumb_disabled">#2C2F36</color>
     <color name="zebra_snackbar">#F3F6FA</color>
-    <color name="zebra_control">#FFFFFF</color>
+    <color name="zebra_control">#F3F6FA</color>
     <color name="zebra_control_inverse">#1D1E23</color>
     <color name="zebra_black_toolbar">#1D1E23</color>
 
-    <color name="zebra_blue_enabled">#0073E6</color>
-    <color name="zebra_blue_pressed">#0061C2</color>
-    <color name="zebra_blue_inverse">#7EBEFF</color>
+    <color name="zebra_blue_enabled">#599FE5</color>
+    <color name="zebra_blue_pressed">#7EBEFF</color>
+    <color name="zebra_blue_inverse">#0061c2</color>
     <color name="zebra_blue_solid_selected">#3C414B</color>
 
-    <color name="zebra_yellow_enabled">#FFD200</color>
-    <color name="zebra_yellow_pressed">#C29500</color>
+    <color name="zebra_yellow_enabled">#C2A728</color>
+    <color name="zebra_yellow_pressed">#DBB91C</color>
     <color name="zebra_yellow_stroke">#9B5A00</color>
-    <color name="zebra_yellow_banner">#331D00</color>
+    <color name="zebra_yellow_banner">#1E1100</color>
 
-    <color name="zebra_red_enabled">#D70015</color>
-    <color name="zebra_red_pressed">#8F000E</color>
-    <color name="zebra_red_inverse">#FF8692</color>
+    <color name="zebra_red_enabled">#F36170</color>
+    <color name="zebra_red_pressed">#F98C97</color>
+    <color name="zebra_red_inverse">#8F000E</color>
     <color name="zebra_red_error_background">#220F11</color>
 
-    <color name="zebra_purple">#CEA4FF</color>
+    <color name="zebra_purple">#9B71DF</color>
     <color name="zebra_purple_stroke">#43008F</color>
     <color name="zebra_purple_banner">#180F22</color>
 
-    <color name="zebra_green">#84DAB6</color>
+    <color name="zebra_green">#67B796</color>
     <color name="zebra_green_stroke">#005F38</color>
-    <color name="zebra_green_banner">#081711</color>
+    <color name="zebra_green_banner">#00864F</color>
 </resources>
