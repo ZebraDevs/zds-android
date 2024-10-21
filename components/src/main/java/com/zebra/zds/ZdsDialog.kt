@@ -53,17 +53,17 @@ class ZdsDialog(context: Context) : Dialog(context) {
             return this
         }
 
-        fun setIcon(iconResId: Int):Builder {
+        fun setIcon(iconResId: Int): Builder {
             this.iconResId = iconResId
             return this
         }
 
-        fun setTitleGravity(gravity: Int):Builder {
+        fun setTitleGravity(gravity: Int): Builder {
             this.titleGravity = gravity
             return this
         }
 
-        fun setContent(content: String):Builder {
+        fun setContent(content: String): Builder {
             this.content = content
             return this
         }
@@ -71,7 +71,7 @@ class ZdsDialog(context: Context) : Dialog(context) {
         fun setPositiveAction(
             positiveAction: String,
             positiveActionClickListener: View.OnClickListener?
-        ):Builder {
+        ): Builder {
             this.positiveText = positiveAction
             this.positiveClickListener = positiveActionClickListener
             return this
@@ -80,7 +80,7 @@ class ZdsDialog(context: Context) : Dialog(context) {
         fun setNegativeAction(
             negativeAction: String,
             negativeActionClickListener: View.OnClickListener?
-        ):Builder {
+        ): Builder {
             this.negativeText = negativeAction
             this.negativeClickListener = negativeActionClickListener
             return this
@@ -89,13 +89,13 @@ class ZdsDialog(context: Context) : Dialog(context) {
         fun setNeutralAction(
             neutralAction: String,
             neutralActionClickListener: View.OnClickListener?
-        ):Builder {
+        ): Builder {
             this.neutralText = neutralAction
             this.neutralClickListener = neutralActionClickListener
             return this
         }
 
-        fun setIsSharp(isSharp: Boolean):Builder {
+        fun setIsSharp(isSharp: Boolean): Builder {
             this.isSharp = isSharp
             return this
         }

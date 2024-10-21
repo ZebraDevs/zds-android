@@ -23,12 +23,12 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/title"
+            style="@style/TextAppearance.Zds.LabelLarge"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
             android:gravity="center_vertical"
             android:textColor="?android:attr/textColorPrimaryInverse"
-            style="@style/TextAppearance.Zds.LabelLarge"
             tools:text="Banner Title" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
