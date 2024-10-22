@@ -34,11 +34,11 @@
 
     <com.zebra.zds.ZdsIconButton
         android:id="@+id/arrow"
-        style="@style/Zds.IconButton.Basic"
+        style="@style/Zds.IconButton.Text"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:padding="0dp"
-        android:theme="@style/Zds.IconButton.Basic"
+        android:theme="@style/Zds.IconButton.Text"
         app:icon="@drawable/ic_chevron_right_sharp"
         app:iconPadding="0dp"
 

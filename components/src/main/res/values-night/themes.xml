@@ -2,17 +2,17 @@
 <resources>
 
     <style name="Theme.ZdsBase" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">@color/zebra_black_toolbar</item>
+        <item name="colorPrimary">@color/zebra_toolbar</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
+        <item name="colorSurface">@color/background</item>
         <item name="colorSurfaceVariant">@color/textPrimaryVariant</item>
         <item name="android:colorBackground">@color/background</item>
         <item name="colorControlNormal">@color/textPrimary</item>
         <item name="android:textColorSecondary">@color/textSecondary</item>
         <item name="android:textColorPrimaryInverse">@color/textPrimary</item>
         <item name="android:textColorPrimary">@color/textPrimary</item>
-        <item name="android:statusBarColor">@color/zebra_black_toolbar</item>
+        <item name="android:statusBarColor">@color/background</item>
         <item name="toolbarStyle">@style/Zds.Toolbar</item>
         <item name="materialButtonStyle">@style/Zds.Button.Primary</item>
         <item name="windowActionBar">false</item>

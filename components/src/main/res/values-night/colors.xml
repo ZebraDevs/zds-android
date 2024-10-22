@@ -5,8 +5,8 @@
     <color name="colorAccent">#FFFFFF</color>
     <color name="background">#151519</color>
 
-    <color name="textPrimary">#F3F6FA</color>
-    <color name="textPrimaryVariant">#1D1E23</color>
+    <color name="textPrimary">#1D1E23</color>
+    <color name="textPrimaryVariant">#F3F6FA</color>
     <color name="textDisabled">#7A8190</color>
     <color name="textSecondary">#AFB6C2</color>
 
@@ -19,7 +19,7 @@
     <color name="zebra_snackbar">#F3F6FA</color>
     <color name="zebra_control">#F3F6FA</color>
     <color name="zebra_control_inverse">#1D1E23</color>
-    <color name="zebra_black_toolbar">#1D1E23</color>
+    <color name="zebra_toolbar">#151519</color>
 
     <color name="zebra_blue_enabled">#599FE5</color>
     <color name="zebra_blue_pressed">#7EBEFF</color>

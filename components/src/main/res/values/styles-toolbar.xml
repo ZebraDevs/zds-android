@@ -2,20 +2,21 @@
 <resources>
 
     <style name="Zds.Toolbar" parent="Widget.Material3.Toolbar.Surface">
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
-        <item name="navigationIconTint">@android:color/white</item>
-        <item name="colorOnSurface">@android:color/white</item>
-        <item name="iconTint">@android:color/white</item>
-        <item name="materialThemeOverlay">@style/Zds.ToolbarOverlay</item>
-        <item name="contentScrim">@android:color/white</item>
+        <item name="colorSurface">@color/zebra_toolbar</item>
+        <item name="navigationIconTint">@color/textPrimaryVariant</item>
+        <item name="colorOnSurface">@color/textPrimaryVariant</item>
+        <item name="iconTint">@color/textPrimaryVariant</item>
+<!--        <item name="materialThemeOverlay">@style/Zds.ToolbarOverlay</item>-->
+        <item name="buttonIconTint">@color/textPrimaryVariant</item>
+        <item name="contentScrim">@color/textPrimaryVariant</item>
         <item name="android:textColorHint">@color/zebra_hint</item>
 
     </style>
 
     <style name="Zds.ToolbarOverlay" parent="">
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
-        <item name="colorOnSurface">@android:color/white</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="colorSurface">@color/textPrimaryVariant</item>
+        <item name="colorOnSurface">@color/textPrimaryVariant</item>
+        <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
 
 </resources>

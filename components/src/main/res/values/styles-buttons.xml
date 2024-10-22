@@ -93,9 +93,6 @@
         <item name="colorContainer">@color/zebra_yellow_enabled</item>
         <item name="colorOnSurface">@color/textPrimaryVariant</item>
         <item name="rippleColor">@color/zebra_yellow_pressed</item>
-        <item name="iconTint">@color/textPrimaryVariant</item>
-        <item name="android:textColor">@color/textPrimaryVariant</item>
-        <item name="android:textColorPrimary">@color/textPrimaryVariant</item>
         <item name="iconSize">18dp</item>
     </style>
 
