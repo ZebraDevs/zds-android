@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="NavigationDrawer" parent="">
         <item name="android:backgroundTint">@color/zebra_control_inverse</item>
         <item name="android:backgroundTintMode">add</item>

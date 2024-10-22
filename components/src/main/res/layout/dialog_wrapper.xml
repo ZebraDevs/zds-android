@@ -4,17 +4,17 @@
     android:id="@+id/cardLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:strokeColor="@android:color/transparent"
+    android:background="?attr/colorSurfaceVariant"
     app:cardBackgroundColor="?attr/colorSurfaceVariant"
-    android:background="?attr/colorSurfaceVariant">
+    app:strokeColor="@android:color/transparent">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="?attr/colorSurfaceVariant"
         android:orientation="vertical"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:background="?attr/colorSurfaceVariant"/>
+        android:paddingRight="16dp" />
 
 </com.google.android.material.card.MaterialCardView>

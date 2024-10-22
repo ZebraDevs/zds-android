@@ -13,8 +13,8 @@
         style="@style/Zds.Button.Primary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:theme="@style/Zds.Button.Primary"
         android:layout_gravity="end"
+        android:theme="@style/Zds.Button.Primary"
         tools:text="Confirm" />
 
 </FrameLayout>

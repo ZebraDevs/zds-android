@@ -38,9 +38,9 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/textInputEditText"
+                style="@style/TextAppearance.Zds.BodyMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TextAppearance.Zds.BodyMedium"
                 android:textColorHint="@color/zebra_hint" />
         </com.google.android.material.textfield.TextInputLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
@@ -66,10 +66,10 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textError"
+            style="@style/TextAppearance.Zds.BodyXSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            style="@style/TextAppearance.Zds.BodyXSmall"
             tools:visibility="visible" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.constraintlayout.widget.ConstraintLayout>

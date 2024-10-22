@@ -9,6 +9,7 @@
         <item name="lineHeight">@dimen/text_height_display_large</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.DisplayMedium" parent="@style/TextAppearance.Material3.DisplayMedium">
         <item name="fontFamily">@font/ibm_plex_sans_light</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_light</item>
@@ -17,6 +18,7 @@
         <item name="lineHeight">@dimen/text_height_display_medium</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.DisplaySmall" parent="@style/TextAppearance.Material3.DisplaySmall">
         <item name="fontFamily">@font/ibm_plex_sans_light</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_light</item>
@@ -34,6 +36,7 @@
         <item name="lineHeight">@dimen/text_height_heading_large</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.HeadingMedium" parent="@style/TextAppearance.Material3.HeadlineMedium">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
@@ -43,6 +46,7 @@
 
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.HeadingSmall" parent="@style/TextAppearance.Material3.HeadlineSmall">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
@@ -60,6 +64,7 @@
         <item name="lineHeight">@dimen/text_height_title_large</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.TitleMedium" parent="@style/TextAppearance.Material3.TitleMedium">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
@@ -68,6 +73,7 @@
         <item name="lineHeight">@dimen/text_height_title_medium</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.TitleSmall" parent="@style/TextAppearance.Material3.TitleSmall">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
@@ -85,6 +91,7 @@
         <item name="lineHeight">@dimen/text_height_body_large</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.BodyMedium" parent="@style/TextAppearance.Material3.BodyMedium">
         <item name="fontFamily">@font/ibm_plex_sans_regular</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_regular</item>
@@ -93,6 +100,7 @@
         <item name="lineHeight">@dimen/text_height_body_medium</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.BodySmall" parent="@style/TextAppearance.Material3.BodySmall">
         <item name="fontFamily">@font/ibm_plex_sans_regular</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_regular</item>
@@ -101,6 +109,7 @@
         <item name="lineHeight">@dimen/text_height_body_small</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.BodyXSmall" parent="@style/TextAppearance.Material3.BodySmall">
         <item name="fontFamily">@font/ibm_plex_sans_regular</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_regular</item>
@@ -118,6 +127,7 @@
         <item name="lineHeight">@dimen/text_height_label_large</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.LabelMedium" parent="@style/TextAppearance.Material3.LabelMedium">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
@@ -126,6 +136,7 @@
         <item name="lineHeight">@dimen/text_height_label_medium</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.LabelSmall" parent="@style/TextAppearance.Material3.LabelSmall">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
@@ -134,6 +145,7 @@
         <item name="lineHeight">@dimen/text_height_label_small</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
+
     <style name="TextAppearance.Zds.LabelIndicator" parent="@style/TextAppearance.Material3.LabelSmall">
         <item name="fontFamily">@font/ibm_plex_sans_medium</item>
         <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>

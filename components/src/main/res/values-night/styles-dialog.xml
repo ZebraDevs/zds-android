@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Zds.Dialog.NegativeButton" parent="Zds.Button.Outline.Subtle"/>
+
+    <style name="Zds.Dialog.NegativeButton" parent="Zds.Button.Outline.Subtle" />
 </resources>
