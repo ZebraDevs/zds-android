@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showBanner() {
         ZdsSystemBanner.Style style = getBanner().getStyle();
-        int statusBarColor = R.color.zebra_black_toolbar;
+        int statusBarColor = R.color.zebra_toolbar;
         switch(style) {
             case DEFAULT:
                 statusBarColor = R.color.zebra_blue_enabled;
@@ -269,6 +269,6 @@ public class MainActivity extends AppCompatActivity {
     public void hideBanner() {
         ((MotionLayout) findViewById(R.id.mainLayout)).transitionToStart();
         getBanner().setVisibility(View.GONE);
-        getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.zebra_black_toolbar));
+        getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.zebra_toolbar));
     }
 }

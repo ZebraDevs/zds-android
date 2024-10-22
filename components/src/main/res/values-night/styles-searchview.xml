@@ -13,7 +13,7 @@
 
     <style name="Zds.SearchView.Layout" parent="Zds.SearchView">
         <item name="iconifiedByDefault">false</item>
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
+        <item name="colorSurface">@color/zebra_toolbar</item>
         <item name="colorSurfaceVariant">@color/zebra_blue_enabled</item>
         <item name="colorSurfaceInverse">@color/zebra_black_inverse</item>
         <item name="android:textColorPrimary">@color/textPrimary</item>
@@ -26,7 +26,7 @@
 
     <style name="Zds.SearchView.Layout.Inverse" parent="Zds.SearchView">
         <item name="iconifiedByDefault">false</item>
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
+        <item name="colorSurface">@color/zebra_toolbar</item>
         <item name="colorSurfaceVariant">@color/zebra_blue_enabled</item>
         <item name="colorSurfaceInverse">@color/zebra_black_inverse</item>
         <item name="android:textColorPrimary">@color/textPrimary</item>

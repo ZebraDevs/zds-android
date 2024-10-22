@@ -17,10 +17,10 @@
 
     <style name="Zds.IconButton.Primary.Variant" parent="Widget.Material3.Button.IconButton">
         <item name="backgroundTint">@drawable/button_selector</item>
-        <item name="colorContainer">@color/zebra_yellow_enabled</item>
+        <item name="colorContainer">@color/zebra_yellow_enabled</item>        >
+        <item name="iconTint">@color/textPrimary</item>
         <item name="colorOnSurface">@color/zebra_grey_disabled</item>
         <item name="rippleColor">@color/zebra_yellow_pressed</item>
-        <item name="iconTint">@color/textPrimaryVariant</item>
         <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
         <item name="cornerRadius">4dp</item>
     </style>
@@ -75,51 +75,19 @@
         <item name="cornerRadius">0dp</item>
     </style>
 
-    <style name="Zds.IconButton.Basic" parent="Widget.Material3.Button.IconButton">
+    <style name="Zds.IconButton.Text" parent="Widget.Material3.Button.IconButton">
         <item name="backgroundTint">@drawable/button_selector</item>
         <item name="colorContainer">@android:color/transparent</item>
         <item name="colorOnSurface">@color/zebra_grey_disabled</item>
         <item name="rippleColor">@color/zebra_grey_subtle_stroke</item>
-        <item name="iconTint">@color/textPrimaryVariant</item>
-        <item name="strokeColor">@android:color/transparent</item>
+        <item name="iconTint">@color/zebra_blue_enabled</item>
+        <item name="strokeColor">@color/zebra_blue_enabled</item>
         <item name="strokeWidth">0dp</item>
         <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
         <item name="cornerRadius">4dp</item>
     </style>
 
-    <style name="Zds.IconButton.Basic.Sharp" parent="Zds.IconButton.Basic">
-        <item name="cornerRadius">0dp</item>
-    </style>
-
-    <style name="Zds.IconButton.Basic.Inverse" parent="Widget.Material3.Button.IconButton">
-        <item name="backgroundTint">@drawable/button_selector</item>
-        <item name="colorContainer">@android:color/transparent</item>
-        <item name="colorOnSurface">@color/zebra_grey_disabled</item>
-        <item name="rippleColor">@color/zebra_grey_inverse</item>
-        <item name="iconTint">@color/textPrimary</item>
-        <item name="strokeColor">@android:color/transparent</item>
-        <item name="strokeWidth">0dp</item>
-        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
-        <item name="cornerRadius">4dp</item>
-    </style>
-
-    <style name="Zds.IconButton.Basic.Inverse.Sharp" parent="Zds.IconButton.Basic.Inverse">
-        <item name="cornerRadius">0dp</item>
-    </style>
-
-    <style name="Zds.IconButton.Basic.Negative" parent="Widget.Material3.Button.IconButton">
-        <item name="backgroundTint">@drawable/button_selector</item>
-        <item name="colorContainer">@android:color/transparent</item>
-        <item name="colorOnSurface">@color/zebra_grey_disabled</item>
-        <item name="rippleColor">@color/zebra_grey_subtle_stroke</item>
-        <item name="iconTint">@color/zebra_red_enabled</item>
-        <item name="strokeColor">@android:color/transparent</item>
-        <item name="strokeWidth">0dp</item>
-        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
-        <item name="cornerRadius">4dp</item>
-    </style>
-
-    <style name="Zds.IconButton.Basic.Negative.Sharp" parent="Zds.IconButton.Basic.Negative">
+    <style name="Zds.IconButton.Text.Sharp" parent="Zds.IconButton.Text">
         <item name="cornerRadius">0dp</item>
     </style>
 </resources>

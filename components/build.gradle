@@ -56,12 +56,5 @@ publishing {
     }
 
     repositories {
-        maven {
-            credentials {
-                username =  project.property('username')
-                password = project.property('password')
-            }
-            url = project.property('zds-android-maven')  + project.property('publish')
-        }
     }
 }

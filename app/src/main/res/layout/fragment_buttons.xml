@@ -391,38 +391,4 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonText2"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/textInverseButtonLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <com.zebra.zds.ZdsButton
-            android:id="@+id/materialButtonTextInverse2"
-            style="@style/Zds.Button.Text.Inverse"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Button"
-            android:theme="@style/Zds.Button.Text.Inverse"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/materialButtonTextInverse"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <com.zebra.zds.ZdsButton
-            android:id="@+id/materialButtonTextInverse"
-            style="@style/Zds.Button.Text.Inverse.Sharp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Button"
-            android:theme="@style/Zds.Button.Text.Inverse.Sharp"
-            app:icon="@drawable/ic_baseline_star_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/materialButtonTextInverse2"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>

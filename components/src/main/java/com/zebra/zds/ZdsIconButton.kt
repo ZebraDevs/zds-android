@@ -19,7 +19,7 @@ class ZdsIconButton @JvmOverloads constructor(
 
     override fun setEnabled(enabled: Boolean) {
 
-        iconTint = if (enabled) {
+        if (enabled) {
             val colorStateList = ColorStateList.valueOf(
                 MaterialColors.getColor(
                     context,
@@ -27,10 +27,13 @@ class ZdsIconButton @JvmOverloads constructor(
                     Color.BLACK
                 )
             )
-            colorStateList
+            iconTint =  colorStateList
+            setTextColor(colorStateList)
+
         } else {
             val colorStateList = ColorStateList.valueOf(resources.getColor(R.color.textDisabled))
-            colorStateList
+            setTextColor(colorStateList)
+            iconTint =  colorStateList
         }
 
         super.setEnabled(enabled)
