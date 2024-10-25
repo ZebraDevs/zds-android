@@ -4,10 +4,11 @@ import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.util.AttributeSet
+import androidx.core.content.ContextCompat
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.color.MaterialColors
 
-class ZdsButton @JvmOverloads constructor(
+open class ZdsButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyle: Int = 0
@@ -30,9 +31,12 @@ class ZdsButton @JvmOverloads constructor(
             iconTint = colorStateList
             setTextColor(colorStateList)
         } else {
-            val colorStateList = ColorStateList.valueOf(resources.getColor(R.color.textDisabled))
-            iconTint = colorStateList
+            val colorStateList =
+                ColorStateList.valueOf(ContextCompat.getColor(context, R.color.textDisabled))
             setTextColor(colorStateList)
+            iconTint = colorStateList
+            backgroundTintList =
+                ColorStateList.valueOf(ContextCompat.getColor(context, R.color.surfaceDisabled))
         }
 
         super.setEnabled(enabled)

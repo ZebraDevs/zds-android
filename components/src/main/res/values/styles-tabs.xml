@@ -2,7 +2,7 @@
 <resources>
 
     <style name="Zds.TabLayout" parent="Widget.Design.TabLayout">
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
+        <item name="colorSurface">@color/zebra_toolbar</item>
         <item name="colorPrimary">@color/textPrimary</item>
         <item name="colorOnSurface">@color/zebra_hint</item>
         <item name="colorControlHighlight">@color/zebra_hint</item>
@@ -12,8 +12,9 @@
         <item name="tabIndicatorHeight">3dp</item>
         <item name="tabIndicatorColor">@color/zebra_blue_enabled</item>
         <item name="tabTextAppearance">@style/Zds.TabItem</item>
-        <item name="tabBackground">@color/zebra_black_toolbar</item>
+        <item name="tabBackground">@color/zebra_toolbar</item>
         <item name="android:textColorSecondary">@color/zebra_hint</item>
+        <item name="android:textColorPrimary">@color/textPrimaryVariant</item>
         <item name="tabIconTint">@color/mtrl_tabs_legacy_text_color_selector</item>
     </style>
 

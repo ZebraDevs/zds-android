@@ -6,6 +6,4 @@ import com.google.android.material.appbar.MaterialToolbar
 
 class ZdsToolbar @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
-) : MaterialToolbar(context, attrs) {
-
-}
+) : MaterialToolbar(context, attrs)

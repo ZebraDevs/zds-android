@@ -9,12 +9,11 @@
     android:paddingEnd="16dp">
 
     <View
-        android:id="@+id/divider"
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:background="@color/zebra_black_toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/zebra_toolbar"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.imageview.ShapeableImageView

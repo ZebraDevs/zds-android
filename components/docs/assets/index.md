@@ -16,4 +16,5 @@
     "app:icon":"@drawable/ic_barcode"
 ```
 
-This package provides all of the Zebra icons for use in applications. To see all icons, see [Zeta Icons](https://design.zebra.com/icons)
+This package provides all of the Zebra icons for use in applications. To see all icons,
+see [Zeta Icons](https://design.zebra.com/icons)

@@ -6,6 +6,5 @@ import com.google.android.material.tabs.TabLayout
 
 class ZdsTabLayout @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
-) : TabLayout(context, attrs) {
-}
+) : TabLayout(context, attrs)
 

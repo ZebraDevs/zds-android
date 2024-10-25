@@ -4,8 +4,9 @@
     <style name="Zds.SelectInput" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
         <item name="colorPrimary">@color/zebra_blue_enabled</item>
         <item name="colorOutline">@color/zebra_grey_disabled</item>
-        <item name="colorError">@color/zebra_red_enabled</item>
+        <item name="colorControlActivated">@color/zebra_red_enabled</item>
         <item name="android:textColorPrimary">@color/textPrimaryVariant</item>
+        <item name="boxBackgroundColor">@color/zebra_red_enabled</item>
     </style>
 
     <style name="Zds.SelectInput.Sharp" parent="Zds.SelectInput">

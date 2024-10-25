@@ -10,21 +10,21 @@
                 <item
                     android:checkable="true"
                     android:id="@+id/buttonsFragment"
-                    android:icon="@drawable/ic_baseline_star_24"
+                    android:icon="@drawable/ic_star_round"
                     android:title="@string/action_buttons"
                     app:actionLayout="@layout/navigation_badge"/>
 
                 <item
                     android:checkable="true"
                     android:id="@+id/iconButtonsFragment"
-                    android:icon="@drawable/ic_baseline_star_24"
+                    android:icon="@drawable/ic_star_round"
                     android:title="@string/action_icon_buttons"
                     app:actionLayout="@layout/navigation_badge"/>
 
                 <item
                     android:checkable="true"
                     android:id="@+id/FABFragment"
-                    android:icon="@drawable/ic_baseline_star_24"
+                    android:icon="@drawable/ic_star_round"
                     android:title="@string/action_fab"
                     app:actionLayout="@layout/navigation_badge"/>
             </menu>
@@ -33,72 +33,72 @@
         <item
             android:checkable="true"
             android:id="@+id/textInputFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_text_input"/>
 
         <item
             android:id="@+id/switchFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_switch"/>
 
         <item
             android:id="@+id/radioFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_radio"/>
 
         <item
             android:id="@+id/checkboxFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_checkbox"/>
 
         <item
             android:id="@+id/progressIndicatorsFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_progress_indicators"/>
 
         <item
             android:id="@+id/toolbarFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_toolbar"/>
 
         <item
             android:id="@+id/tabsFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_tabs"/>
 
         <item
             android:id="@+id/listFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_lists"/>
 
         <item
             android:id="@+id/dialogsFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_dialogs"/>
 
         <item
             android:id="@+id/dropdownFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_dropdown"/>
 
         <item
             android:id="@+id/searchFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_search"/>
 
         <item
             android:id="@+id/snackbarFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_snackbar"/>
 
         <item
             android:id="@+id/bannerFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_banner"/>
 
         <item
             android:id="@+id/selectInputFragment"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:title="@string/action_select_input"/>
 
         <item
@@ -114,4 +114,5 @@
             android:orderInCategory="200"
             android:title="" />
     </group>
+
 </menu>

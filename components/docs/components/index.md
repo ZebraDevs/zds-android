@@ -38,6 +38,8 @@
 - Zds.Button.Primary.Sharp
 - Zds.Button.Variant
 - Zds.Button.Variant.Sharp
+- Zds.Button.Positive
+- Zds.Button.Positive.Sharp
 - Zds.Button.Negative
 - Zds.Button.Negative.Sharp
 - Zds.Button.Outline
@@ -77,6 +79,8 @@ its properties. Another way is to override attributes in the XML layout file.
 - Zds.IconButton.Primary.Sharp
 - Zds.IconButton.Variant
 - Zds.IconButton.Variant.Sharp
+- Zds.IconButton.Positive
+- Zds.IconButton.Positive.Sharp
 - Zds.IconButton.Negative
 - Zds.IconButton.Negative.Sharp
 - Zds.IconButton.Outline

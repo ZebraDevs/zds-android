@@ -19,11 +19,4 @@
         android:layout_height="wrap_content"
         android:theme="@style/Zds.SearchView.Layout" />
 
-    <com.zebra.zds.ZdsSearchView
-        android:id="@+id/zebra_search_inverse"
-        style="@style/Zds.SearchView.Layout.Inverse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Zds.SearchView.Layout.Inverse" />
-
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -24,7 +24,7 @@
         zebra:label="Custom label"
         zebra:label_style="mandatory"
         zebra:prefixText="$"
-        zebra:startIconDrawable="@drawable/ic_baseline_star_24" />
+        zebra:startIconDrawable="@drawable/ic_star_round" />
 
     <com.zebra.zds.ZdsTextInput
         android:id="@+id/zebra_text_input_dense"
