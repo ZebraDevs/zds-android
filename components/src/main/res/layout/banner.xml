@@ -18,7 +18,7 @@
             android:layout_height="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@drawable/ic_error" />
+            tools:srcCompat="@drawable/ic_info_sharp" />
 
         <com.zebra.zds.ZdsIconButton
             android:id="@+id/close"
@@ -27,7 +27,7 @@
             android:layout_height="24dp"
             android:padding="0dp"
             android:theme="@style/Zds.IconButton.Basic"
-            app:icon="@drawable/ic_close"
+            app:icon="@drawable/ic_close_sharp"
             app:iconPadding="0dp"
             app:iconTint="@color/textPrimaryVariant"
             app:layout_constraintEnd_toEndOf="parent"

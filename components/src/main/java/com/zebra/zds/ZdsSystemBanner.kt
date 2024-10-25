@@ -127,32 +127,32 @@ class ZdsSystemBanner : FrameLayout {
     private fun applyStyle(style: Style) {
         var colorTint = ContextCompat.getColor(context, R.color.textPrimary)
         var colorBackground = ContextCompat.getColor(context, R.color.zebra_blue_enabled)
-        var iconResId = R.drawable.ic_error
+        var iconResId = R.drawable.ic_info_sharp
 
         when (style) {
             Style.DEFAULT -> {
                 colorTint = ContextCompat.getColor(context, R.color.textPrimary)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_blue_enabled)
-                iconResId = R.drawable.ic_error
+                iconResId = R.drawable.ic_info_sharp
             }
 
             Style.POSITIVE -> {
                 colorTint = ContextCompat.getColor(context, R.color.textPrimary)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_green_system_banner)
-                iconResId = R.drawable.ic_check_circle
+                iconResId = R.drawable.ic_check_circle_sharp
             }
 
             Style.WARNING -> {
                 colorTint = ContextCompat.getColor(context, R.color.textPrimaryVariant)
                 colorBackground =
                     ContextCompat.getColor(context, R.color.zebra_yellow_system_banner)
-                iconResId = R.drawable.ic_round_warning
+                iconResId = R.drawable.ic_warning_round
             }
 
             Style.NEGATIVE -> {
                 colorTint = ContextCompat.getColor(context, R.color.textPrimary)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_red_enabled)
-                iconResId = R.drawable.ic_error
+                iconResId = R.drawable.ic_info_sharp
             }
         }
 

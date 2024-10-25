@@ -18,7 +18,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="actionModeCloseDrawable">@drawable/ic_action_mode_close</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_close_sharp</item>
         <item name="searchViewStyle">@style/Zds.SearchView</item>
         <item name="popupMenuBackground">@color/background</item>
         <item name="textAppearanceLargePopupMenu">@style/Zds.Dropdown</item>
