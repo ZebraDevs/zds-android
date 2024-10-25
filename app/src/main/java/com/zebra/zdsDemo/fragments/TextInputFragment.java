@@ -42,7 +42,7 @@ public class TextInputFragment extends Fragment {
         inputDense.setHint("Connected left view");
 
         ImageView image = new ImageView(getContext());
-        image.setImageResource(R.drawable.ic_arrow_forward);
+        image.setImageResource(R.drawable.ic_chevron_right_sharp);
         image.setPadding(24, 0, 24, 0);
         image.setImageTintList(ColorStateList.valueOf(ContextCompat.getColor(requireContext(), R.color.zebra_hint)));
 

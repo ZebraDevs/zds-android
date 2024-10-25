@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="true"
-        tools:src="@drawable/ic_error" />
+        tools:src="@drawable/ic_info_sharp" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/text"

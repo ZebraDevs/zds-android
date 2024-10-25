@@ -137,35 +137,35 @@ class ZdsBanner : FrameLayout {
         var colorTint = ContextCompat.getColor(context, R.color.zebra_control)
         var colorStroke = ContextCompat.getColor(context, R.color.zebra_grey_subtle_stroke)
         var colorBackground = ContextCompat.getColor(context, R.color.zebra_control_inverse)
-        var iconResId = R.drawable.ic_error
+        var iconResId = R.drawable.ic_info_sharp
 
         when (style) {
             Style.DEFAULT -> {
                 colorTint = ContextCompat.getColor(context, R.color.zebra_control)
                 colorStroke = ContextCompat.getColor(context, R.color.zebra_grey_subtle_stroke)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_control_inverse)
-                iconResId = R.drawable.ic_error
+                iconResId = R.drawable.ic_info_sharp
             }
 
             Style.INFO -> {
                 colorTint = ContextCompat.getColor(context, R.color.zebra_purple)
                 colorStroke = ContextCompat.getColor(context, R.color.zebra_purple_stroke)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_purple_banner)
-                iconResId = R.drawable.ic_error
+                iconResId = R.drawable.ic_info_sharp
             }
 
             Style.POSITIVE -> {
                 colorTint = ContextCompat.getColor(context, R.color.zebra_green)
                 colorStroke = ContextCompat.getColor(context, R.color.zebra_green_stroke)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_green_banner)
-                iconResId = R.drawable.ic_check_circle
+                iconResId = R.drawable.ic_check_circle_sharp
             }
 
             Style.WARNING -> {
                 colorTint = ContextCompat.getColor(context, R.color.zebra_yellow_enabled)
                 colorStroke = ContextCompat.getColor(context, R.color.zebra_yellow_stroke)
                 colorBackground = ContextCompat.getColor(context, R.color.zebra_yellow_banner)
-                iconResId = R.drawable.ic_round_warning
+                iconResId = R.drawable.ic_warning_round
             }
 
             Style.NEGATIVE -> {
@@ -173,7 +173,7 @@ class ZdsBanner : FrameLayout {
                 colorStroke = ContextCompat.getColor(context, R.color.zebra_red_inverse)
                 colorBackground =
                     ContextCompat.getColor(context, R.color.zebra_red_error_background)
-                iconResId = R.drawable.ic_error
+                iconResId = R.drawable.ic_info_sharp
             }
         }
 

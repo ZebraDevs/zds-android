@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_round_warning"
+        tools:srcCompat="@drawable/ic_warning_round"
         tools:tint="@color/zebra_control_inverse" />
 
     <com.zebra.zds.ZdsIconButton
@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:icon="@drawable/ic_round_warning"
+        tools:icon="@drawable/ic_warning_round"
         tools:iconTint="@color/zebra_control_inverse" />
 
     <com.google.android.material.textview.MaterialTextView

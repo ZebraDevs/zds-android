@@ -46,7 +46,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:visibility="gone"
-            app:srcCompat="@drawable/ic_error" />
+            app:srcCompat="@drawable/ic_info_sharp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textError"

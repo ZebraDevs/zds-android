@@ -19,7 +19,7 @@
             android:id="@+id/image"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            tools:srcCompat="@drawable/ic_error" />
+            tools:srcCompat="@drawable/ic_info_sharp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/title"
@@ -39,7 +39,7 @@
         android:layout_height="0dp"
         android:padding="0dp"
         android:theme="@style/Zds.IconButton.Basic"
-        app:icon="@drawable/ic_arrow_forward"
+        app:icon="@drawable/ic_chevron_right_sharp"
         app:iconPadding="0dp"
 
         app:iconTint="@color/textPrimaryVariant"

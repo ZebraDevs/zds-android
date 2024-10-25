@@ -2,8 +2,8 @@
 <resources>
 
     <style name="Zds.SearchView" parent="Widget.AppCompat.SearchView">
-        <item name="closeIcon">@drawable/ic_searchview_close</item>
-        <item name="collapseIcon">@drawable/ic_searchview_collapse</item>
+        <item name="closeIcon">@drawable/ic_cancel_sharp</item>
+        <item name="collapseIcon">@drawable/ic_arrow_back_sharp</item>
         <item name="queryHint">Search</item>
         <item name="closeIconEnabled">true</item>
         <item name="searchHintIcon">@null</item>

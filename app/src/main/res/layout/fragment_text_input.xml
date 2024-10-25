@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Zds.TextInput"
-        zebra:endIconDrawable="@drawable/ic_error"
+        zebra:endIconDrawable="@drawable/ic_info_sharp"
         zebra:hint="@string/app_name"
         zebra:label="Custom label"
         zebra:label_style="mandatory"

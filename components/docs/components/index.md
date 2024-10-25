@@ -198,7 +198,7 @@ All views have public visibility and can be used in code by accessing them direc
     android:layout_width="match_parent" android:layout_height="wrap_content"
     android:theme="@style/Zds.TextInput" style="@style/Zds.TextInput" zebra:label="Custom label"
     zebra:label_style="mandatory" zebra:hint="@string/app_name" zebra:prefixText="$"
-    zebra:suffixText="@" zebra:endIconDrawable="@drawable/ic_error"
+    zebra:suffixText="@" zebra:endIconDrawable="@drawable/ic_info_sharp"
     zebra:startIconDrawable="@drawable/ic_baseline_star_24" />
 ```
 

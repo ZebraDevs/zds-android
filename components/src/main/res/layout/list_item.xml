@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toStartOf="@id/textLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_error" />
+        tools:srcCompat="@drawable/ic_info_sharp" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/textLayout"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/guideline_end"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_error" />
+        tools:srcCompat="@drawable/ic_info_sharp" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/meta"
