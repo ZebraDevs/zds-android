@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Primary"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButton"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Primary.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButton2"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Primary.Variant"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonVariant"
             app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Primary.Variant.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonVariant2"
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Negative"
-            app:icon="@drawable/ic_baseline_delete_24"
+            app:icon="@drawable/ic_delete_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonNegative"
             app:layout_constraintStart_toStartOf="parent"
@@ -106,10 +106,44 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Negative.Sharp"
-            app:icon="@drawable/ic_baseline_delete_24"
+            app:icon="@drawable/ic_delete_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonNegative2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/positiveButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zebra.zds.ZdsIconButton
+            android:id="@+id/materialButtonPositive2"
+            style="@style/Zds.IconButton.Positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/Zds.IconButton.Positive"
+            app:icon="@drawable/ic_delete_round"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/materialButtonPositive"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.zebra.zds.ZdsIconButton
+            android:id="@+id/materialButtonPositive"
+            style="@style/Zds.IconButton.Positive.Sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/Zds.IconButton.Positive.Sharp"
+            app:icon="@drawable/ic_delete_round"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/materialButtonPositive2"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -128,7 +162,7 @@
             android:layout_gravity="center"
             android:enabled="false"
             android:theme="@style/Zds.IconButton.Negative"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonDisabled"
             app:layout_constraintStart_toStartOf="parent"
@@ -142,7 +176,7 @@
             android:layout_gravity="center"
             android:enabled="false"
             android:theme="@style/Zds.IconButton.Negative.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonDisabled2"
@@ -163,7 +197,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Outline"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonOutline"
             app:layout_constraintStart_toStartOf="parent"
@@ -176,7 +210,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Outline.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonOutline2"
@@ -197,7 +231,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Outline.Subtle"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonOutlineSubtle"
             app:layout_constraintStart_toStartOf="parent"
@@ -210,7 +244,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:theme="@style/Zds.IconButton.Outline.Subtle.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonOutlineSubtle2"
@@ -226,12 +260,12 @@
 
         <com.zebra.zds.ZdsIconButton
             android:id="@+id/materialButtonBasic2"
-            style="@style/Zds.IconButton.Basic"
+            style="@style/Zds.IconButton.Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:theme="@style/Zds.IconButton.Basic"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            android:theme="@style/Zds.IconButton.Text"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonBasic"
             app:layout_constraintStart_toStartOf="parent"
@@ -239,83 +273,15 @@
 
         <com.zebra.zds.ZdsIconButton
             android:id="@+id/materialButtonBasic"
-            style="@style/Zds.IconButton.Basic.Sharp"
+            style="@style/Zds.IconButton.Text.Sharp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:theme="@style/Zds.IconButton.Basic.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
+            android:theme="@style/Zds.IconButton.Text.Sharp"
+            app:icon="@drawable/ic_more_horizontal_round"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonBasic2"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/basicInverseButtonLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <com.zebra.zds.ZdsIconButton
-            android:id="@+id/materialButtonBasicInverse2"
-            style="@style/Zds.IconButton.Basic.Inverse"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:theme="@style/Zds.IconButton.Basic.Inverse"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/materialButtonBasicInverse"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <com.zebra.zds.ZdsIconButton
-            android:id="@+id/materialButtonBasicInverse"
-            style="@style/Zds.IconButton.Basic.Inverse.Sharp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:theme="@style/Zds.IconButton.Basic.Inverse.Sharp"
-            app:icon="@drawable/ic_baseline_more_horiz_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/materialButtonBasicInverse2"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/basicNegativeButtonLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <com.zebra.zds.ZdsIconButton
-            android:id="@+id/materialButtonBasicNegative2"
-            style="@style/Zds.IconButton.Basic.Negative"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:theme="@style/Zds.IconButton.Basic.Negative"
-            app:icon="@drawable/ic_baseline_delete_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/materialButtonBasicNegative"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <com.zebra.zds.ZdsIconButton
-            android:id="@+id/materialButtonBasicNegative"
-            style="@style/Zds.IconButton.Basic.Negative.Sharp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:theme="@style/Zds.IconButton.Basic.Negative.Sharp"
-            app:icon="@drawable/ic_baseline_delete_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/materialButtonBasicNegative2"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

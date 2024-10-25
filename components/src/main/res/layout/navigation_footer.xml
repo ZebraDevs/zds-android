@@ -20,10 +20,11 @@
 
     <com.zebra.zds.ZdsIconButton
         android:id="@+id/action"
-        style="@style/Zds.IconButton.Basic"
+
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:theme="@style/Zds.IconButton.Basic"
+        style="@style/Zds.IconButton.Text"
+        android:theme="@style/Zds.IconButton.Text"
         app:iconPadding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -45,7 +45,7 @@ public class DialogsFragment extends Fragment {
         ZdsDialog.Builder builder = new ZdsDialog.Builder(requireContext());
         builder.setTitle("Dialog Title").setContent("Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusm od tempor incididunt ut labore et do lore magna aliqua.");
         if (titleImage.isChecked()) {
-            builder.setIcon(R.drawable.ic_baseline_warning_24);
+            builder.setIcon(R.drawable.ic_warning_round);
         }
         if (gravityRadioGroup.getCheckedRadioButtonId() == R.id.gravityLeft) {
             builder.setTitleGravity(Gravity.START);

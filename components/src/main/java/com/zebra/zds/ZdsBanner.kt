@@ -170,7 +170,7 @@ class ZdsBanner : FrameLayout {
 
             Style.NEGATIVE -> {
                 colorTint = ContextCompat.getColor(context, R.color.zebra_red_enabled)
-                colorStroke = ContextCompat.getColor(context, R.color.zebra_red_inverse)
+                colorStroke = ContextCompat.getColor(context, R.color.zebra_red_stroke)
                 colorBackground =
                     ContextCompat.getColor(context, R.color.zebra_red_error_background)
                 iconResId = R.drawable.ic_info_sharp

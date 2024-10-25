@@ -15,6 +15,7 @@
         android:layout_height="36dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
+        android:tint="@color/zebra_yellow_system_banner"
         tools:srcCompat="@drawable/ic_info_sharp" />
 
     <com.google.android.material.textview.MaterialTextView

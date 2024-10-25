@@ -4,8 +4,8 @@
     <style name="Zds.SearchView" parent="Widget.AppCompat.SearchView">
         <item name="closeIcon">@drawable/ic_cancel_sharp</item>
         <item name="collapseIcon">@drawable/ic_arrow_back_sharp</item>
-        <item name="iconTint">@color/zebra_black_toolbar</item>
-        <item name="colorControlNormal">@color/zebra_black_toolbar</item>
+        <item name="iconTint">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
         <item name="queryHint">Search</item>
         <item name="closeIconEnabled">true</item>
         <item name="android:textColor">@color/textPrimaryVariant</item>
@@ -24,16 +24,4 @@
         <item name="colorAccent">@color/zebra_blue_enabled</item>
     </style>
 
-    <style name="Zds.SearchView.Layout.Inverse" parent="Zds.SearchView">
-        <item name="iconifiedByDefault">false</item>
-        <item name="colorSurface">@color/zebra_black_toolbar</item>
-        <item name="colorSurfaceVariant">@color/zebra_blue_enabled</item>
-        <item name="colorSurfaceInverse">@color/zebra_black_inverse</item>
-        <item name="android:textColorPrimary">@color/textPrimary</item>
-        <item name="queryBackground">@null</item>
-        <item name="iconTint">@color/zebra_grey_track</item>
-        <item name="colorControlNormal">@color/textPrimary</item>
-        <item name="cornerRadius">4dp</item>
-        <item name="colorAccent">@color/zebra_blue_enabled</item>
-    </style>
 </resources>

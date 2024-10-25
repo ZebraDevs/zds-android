@@ -88,7 +88,7 @@ public class ListFragment extends Fragment {
             viewHolder.getIconRight().setImageTintList(ColorStateList.valueOf(Color.GRAY));
 
             if (imageLeftCheckBox.isChecked()) {
-                viewHolder.showIconLeft(R.drawable.ic_baseline_star_24);
+                viewHolder.showIconLeft(R.drawable.ic_star_sharp);
             }
             else {
                 viewHolder.hideIconLeft();
@@ -96,7 +96,7 @@ public class ListFragment extends Fragment {
 
             switch (elementRightRadioGroup.getCheckedRadioButtonId()) {
                 case R.id.showImageRight:
-                    viewHolder.showIconRight(R.drawable.ic_baseline_star_24);
+                    viewHolder.showIconRight(R.drawable.ic_star_sharp);
                     break;
                 case R.id.showMeta:
                     viewHolder.setMeta("Meta");

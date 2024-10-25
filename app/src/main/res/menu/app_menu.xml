@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/action_change_theme"
-        android:icon="@drawable/ic_baseline_invert_colors_24"
+        android:icon="@drawable/ic_dark_mode_round"
         android:title="@string/menu_action_theme"
         app:showAsAction="ifRoom"/>
 </menu>

@@ -146,13 +146,4 @@
         <item name="android:textColor">@color/textPrimaryVariant</item>
     </style>
 
-    <style name="TextAppearance.Zds.LabelIndicator" parent="@style/TextAppearance.Material3.LabelSmall">
-        <item name="fontFamily">@font/ibm_plex_sans_medium</item>
-        <item name="android:fontFamily">@font/ibm_plex_sans_medium</item>
-        <item name='fontWeight'>500</item>
-        <item name="android:textSize">@dimen/text_size_label_indicator</item>
-        <item name="lineHeight">@dimen/text_height_label_indicator</item>
-        <item name="android:textColor">@color/textPrimaryVariant</item>
-    </style>
-
 </resources>

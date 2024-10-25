@@ -4,13 +4,13 @@
 
     <item
         android:id="@+id/action_delete"
-        android:icon="@drawable/ic_baseline_delete_24"
+        android:icon="@drawable/ic_delete_round"
         android:title="@string/menu_action_delete"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/action_favorite"
-        android:icon="@drawable/ic_baseline_star_24"
+        android:icon="@drawable/ic_star_round"
         android:title="@string/menu_action_favorite"
         app:showAsAction="never"/>
 </menu>

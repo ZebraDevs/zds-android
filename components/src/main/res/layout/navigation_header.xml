@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="88dp"
-    android:background="?android:attr/statusBarColor"
+    android:background="@color/backgroundTertiary"
     android:paddingStart="16dp"
     android:paddingEnd="16dp">
 
@@ -21,11 +21,11 @@
 
     <com.zebra.zds.ZdsIconButton
         android:id="@+id/action"
-        style="@style/Zds.IconButton.Basic"
+        style="@style/Zds.IconButton.Text"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="?android:attr/statusBarColor"
-        android:theme="@style/Zds.IconButton.Basic"
+        android:theme="@style/Zds.IconButton.Text"
         app:iconPadding="4dp"
         app:iconTint="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,8 @@
         android:layout_marginStart="16dp"
         android:background="@null"
         android:gravity="start"
-        android:textColor="@color/textPrimary"
+        android:textColor="@color/textInverse"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@id/action"
         app:layout_constraintStart_toEndOf="@id/image"
         app:layout_constraintTop_toTopOf="@id/image"

@@ -23,21 +23,21 @@
             android:id="@+id/tab1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:text="Tab1" />
 
         <com.zebra.zds.ZdsTabItem
             android:id="@+id/tab2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:text="Tab2" />
 
         <com.zebra.zds.ZdsTabItem
             android:id="@+id/tab3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:icon="@drawable/ic_baseline_star_24"
+            android:icon="@drawable/ic_star_round"
             android:text="Tab3" />
 
     </com.zebra.zds.ZdsTabLayout>
@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="@color/zebra_black_toolbar"
+        android:background="@color/zebra_toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tabLayout">
@@ -65,42 +65,42 @@
                 android:id="@+id/tab1Scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_baseline_star_24"
+                android:icon="@drawable/ic_star_round"
                 android:text="Tab1" />
 
             <com.zebra.zds.ZdsTabItem
                 android:id="@+id/tab2Scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_baseline_star_24"
+                android:icon="@drawable/ic_star_round"
                 android:text="Tab2" />
 
             <com.zebra.zds.ZdsTabItem
                 android:id="@+id/tab3Scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_baseline_star_24"
+                android:icon="@drawable/ic_star_round"
                 android:text="Tab3" />
 
             <com.zebra.zds.ZdsTabItem
                 android:id="@+id/tab4Scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_baseline_star_24"
+                android:icon="@drawable/ic_star_round"
                 android:text="Tab4" />
 
             <com.zebra.zds.ZdsTabItem
                 android:id="@+id/tab5Scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_baseline_star_24"
+                android:icon="@drawable/ic_star_round"
                 android:text="Tab5" />
 
             <com.zebra.zds.ZdsTabItem
                 android:id="@+id/tab6Scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_baseline_star_24"
+                android:icon="@drawable/ic_star_round"
                 android:text="Tab6" />
 
         </com.zebra.zds.ZdsTabLayout>
