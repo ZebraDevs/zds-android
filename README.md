@@ -17,8 +17,8 @@ Once logged in with SSO, select your username in the top right corner, and selec
 These credentials will need to be passed into Gradle, but they should not be committed to source control. It is recommended for individuals to save their username and password in their global `gradle.properties` file in the `<USER_HOME>/.gradle` directory (This file may need to be created). The following format is only an example, and any names can be given.
 
 ```gradle
-    artifactusername=XXX
-    artifactpassword=YYY
+    mavenUsername=XXX
+    mavenPassword=YYY
 ```
 
 These credentials should **_never_** be shared.
@@ -38,8 +38,8 @@ dependencyResolutionManagement {
         maven{
             url "https://artifactory-us.zebra.com/artifactory/dmo-mvn-rel/"
             credentials {
-                username = "${artifactusername}"
-                password = "${artifactpassword}"
+                username = "${mavenUsername}"
+                password = "${mavenPassword}"
             }
         }
     }
@@ -64,8 +64,8 @@ dependencyResolutionManagement {
         maven{
             url = uri("https://artifactory-us.zebra.com/artifactory/dmo-mvn-rel/")
             credentials {
-                username = getProperty("artifactoryusername")
-                password = getProperty("artifactorypassword")
+                username = getProperty("mavenUsername")
+                password = getProperty("mavenPassword")
             }
         }
     }
@@ -74,7 +74,11 @@ dependencyResolutionManagement {
 
 </details>
 
-### 4. Add dependency to app build file
+### 4. Run gradle build
+
+This step is needed to ensure that gradle can sync and pull data from the maven repository. In Android studio, click the 'Make Module' button in the toolbar (hammer icon).
+
+### 5. Add dependency to app build file
 
 This file should be located within the app directory of your project (not the root level); below are examples for both `build.gradle` and `build.gradle.kts`
 
@@ -85,7 +89,7 @@ This file should be located within the app directory of your project (not the ro
 ```
 dependencies {
     ...
-    implementation 'com.zebra:zds:1.0.0'
+    implementation 'com.zebra:zds:1.1.0'
 }
 ```
 
@@ -96,6 +100,15 @@ dependencies {
 
 <!-- x-release-please-start-version -->
 
+dependencies {
+...
+implementation("com.zebra:zds:1.1.0")
+}
+
+<!-- x-release-please-end -->
+
+Once you have done this, and performed a sync and build, the IDE _should_ recommend this line be refactored into the new style below:
+
 ```
 dependencies {
     ...
@@ -103,10 +116,9 @@ dependencies {
 }
 ```
 
-<!-- x-release-please-end -->
 </details>
 
-### 5. Add theme to manifest
+### 6. Add theme to manifest
 
 For the components to work and receive the correct theme values, we must add the theme in `AndroidManifest.xml`. Be sure to remove other themes which could override this and prevent the components from working.
 
@@ -118,7 +130,7 @@ For the components to work and receive the correct theme values, we must add the
 />
 ```
 
-### 6. Use components
+### 7. Use components
 
 ```xml
 <com.zebra.zds.ZdsButton

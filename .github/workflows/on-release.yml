@@ -24,8 +24,8 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
       - name: Add environment variables
         run: |
-          echo "artifactoryusername=${{secrets.ARTIFACTORY_USERNAME}}" >> gradle.properties
-          echo "artifactorypassword=${{secrets.ARTIFACTORY_PASSWORD}}" >> gradle.properties 
+          echo "mavenUsername=${{secrets.ARTIFACTORY_USERNAME}}" >> gradle.properties
+          echo "mavenPassword=${{secrets.ARTIFACTORY_PASSWORD}}" >> gradle.properties 
           echo "zds-android-maven=${{secrets.ZDS_ANDROID_MAVEN}}" >> gradle.properties
 
       - name: Publish

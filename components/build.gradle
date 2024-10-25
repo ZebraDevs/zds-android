@@ -44,7 +44,7 @@ publishing {
             groupId = 'com.zebra'
             artifactId = 'zds'
             // x-release-please-start-version
-            version = '1.0.0'
+            version = '1.1.0'
             // x-release-please-end
 
             afterEvaluate {
@@ -60,8 +60,8 @@ publishing {
     repositories {
         maven {
             credentials {
-                username = project.property('artifactoryusername')
-                password = project.property('artifactorypassword')
+                username = project.property('mavenUsername')
+                password = project.property('mavenPassword')
             }
             url = project.property('zds-android-maven') + project.property('publish')
         }
