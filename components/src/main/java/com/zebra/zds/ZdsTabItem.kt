@@ -6,5 +6,4 @@ import com.google.android.material.tabs.TabItem
 
 class ZdsTabItem @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
-) : TabItem(context, attrs) {
-}
+) : TabItem(context, attrs)

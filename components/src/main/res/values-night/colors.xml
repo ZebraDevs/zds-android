@@ -9,6 +9,7 @@
     <color name="textPrimaryVariant">#F3F6FA</color>
     <color name="textDisabled">#7A8190</color>
     <color name="textSecondary">#AFB6C2</color>
+    <color name="surfaceDisabled">#2C2F36</color>
 
     <color name="zebra_grey_disabled">#7A8190</color>
     <color name="zebra_grey_subtle_stroke">#3C414B</color>
@@ -26,14 +27,15 @@
     <color name="zebra_blue_inverse">#0061c2</color>
     <color name="zebra_blue_solid_selected">#3C414B</color>
 
-    <color name="zebra_yellow_enabled">#C2A728</color>
+    <color name="zebra_yellow_enabled">#FBB348</color>
     <color name="zebra_yellow_pressed">#DBB91C</color>
     <color name="zebra_yellow_stroke">#9B5A00</color>
     <color name="zebra_yellow_banner">#1E1100</color>
+    <color name="zebra_yellow_button">#F3D961</color>
 
     <color name="zebra_red_enabled">#F36170</color>
     <color name="zebra_red_pressed">#F98C97</color>
-    <color name="zebra_red_inverse">#8F000E</color>
+    <color name="zebra_red_stroke">#8F000E</color>
     <color name="zebra_red_error_background">#220F11</color>
 
     <color name="zebra_purple">#9B71DF</color>
@@ -41,6 +43,7 @@
     <color name="zebra_purple_banner">#180F22</color>
 
     <color name="zebra_green">#67B796</color>
+    <color name="zebra_green_selected">#D8FFEF</color>
     <color name="zebra_green_stroke">#005F38</color>
     <color name="zebra_green_banner">#00864F</color>
 </resources>

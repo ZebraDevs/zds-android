@@ -14,6 +14,7 @@
         <item name="tabTextAppearance">@style/Zds.TabItem</item>
         <item name="tabBackground">@color/zebra_toolbar</item>
         <item name="android:textColorSecondary">@color/zebra_hint</item>
+        <item name="android:textColorPrimary">@color/textPrimaryVariant</item>
         <item name="tabIconTint">@color/mtrl_tabs_legacy_text_color_selector</item>
     </style>
 

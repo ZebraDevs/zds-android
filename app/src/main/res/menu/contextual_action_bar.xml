@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/action_test"
-        android:icon="@drawable/ic_baseline_sd_card_24"
+        android:icon="@drawable/ic_sd_card_round"
         android:title="@string/menu_action_search"
         app:showAsAction="always"/>
 </menu>

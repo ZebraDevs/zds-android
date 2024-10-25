@@ -90,18 +90,18 @@ public class DropdownFragment extends Fragment {
             case COUNTRY:
                 itemResId = R.layout.dropdown_item_icon;
                 items.clear();
-                items.add(new ListPopupItem("Option 1", R.drawable.ic_baseline_flag_24));
-                items.add(new ListPopupItem("Option 2", R.drawable.ic_baseline_flag_24));
-                items.add(new ListPopupItem("Option 3", R.drawable.ic_baseline_flag_24));
-                items.add(new ListPopupItem("Option 4", R.drawable.ic_baseline_flag_24));
+                items.add(new ListPopupItem("Option 1", R.drawable.ic_flag_round));
+                items.add(new ListPopupItem("Option 2", R.drawable.ic_flag_round));
+                items.add(new ListPopupItem("Option 3", R.drawable.ic_flag_round));
+                items.add(new ListPopupItem("Option 4", R.drawable.ic_flag_round));
                 break;
             case COUNTRY_CONDENSED:
                 itemResId = R.layout.dropdown_item_icon_condensed;
                 items.clear();
-                items.add(new ListPopupItem("Option 1", R.drawable.ic_baseline_flag_24));
-                items.add(new ListPopupItem("Option 2", R.drawable.ic_baseline_flag_24));
-                items.add(new ListPopupItem("Option 3", R.drawable.ic_baseline_flag_24));
-                items.add(new ListPopupItem("Option 4", R.drawable.ic_baseline_flag_24));
+                items.add(new ListPopupItem("Option 1", R.drawable.ic_flag_round));
+                items.add(new ListPopupItem("Option 2", R.drawable.ic_flag_round));
+                items.add(new ListPopupItem("Option 3", R.drawable.ic_flag_round));
+                items.add(new ListPopupItem("Option 4", R.drawable.ic_flag_round));
                 break;
         }
 

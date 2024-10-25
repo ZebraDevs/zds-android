@@ -25,7 +25,7 @@ class ZdsRadioButton @JvmOverloads constructor(
         if (enabled || isChecked) {
             setButtonDrawable(R.drawable.abc_btn_radio_material_anim)
         } else {
-            setButtonDrawable(R.drawable.radio_disabled_unchecked)
+            setButtonDrawable(R.drawable.ic_radio_button_unchecked_round)
         }
     }
 }

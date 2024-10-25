@@ -37,21 +37,18 @@
         app:layout_constraintTop_toTopOf="@id/progressIndicator">
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/bufferingDot1"
             android:layout_width="?attr/trackThickness"
             android:layout_height="?attr/trackThickness"
             android:layout_marginStart="?attr/trackThickness"
             app:srcCompat="@drawable/buffering_dot" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/bufferingDot2"
             android:layout_width="?attr/trackThickness"
             android:layout_height="?attr/trackThickness"
             android:layout_marginStart="?attr/trackThickness"
             app:srcCompat="@drawable/buffering_dot" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/bufferingDot3"
             android:layout_width="?attr/trackThickness"
             android:layout_height="?attr/trackThickness"
             android:layout_marginStart="?attr/trackThickness"

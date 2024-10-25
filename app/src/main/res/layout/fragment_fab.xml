@@ -29,7 +29,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Circle"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButton"
@@ -43,7 +43,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButton2"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Rounded"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButton3"
@@ -57,7 +57,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButton"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Sharp"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -81,7 +81,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Circle"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButtonVariant"
@@ -95,7 +95,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonVariant2"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Rounded"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButtonVariant3"
@@ -109,7 +109,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonVariant"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Sharp"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -133,7 +133,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Circle"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButtonInverse"
@@ -147,7 +147,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonInverse2"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Rounded"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButtonInverse3"
@@ -161,7 +161,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonInverse"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Sharp"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -186,7 +186,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Circle"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButtonDisabled"
@@ -201,7 +201,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonDisabled2"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Rounded"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
 
         <com.zebra.zds.ZdsFAB
             android:id="@+id/materialButtonDisabled3"
@@ -216,7 +216,7 @@
             app:layout_constraintStart_toEndOf="@+id/materialButtonDisabled"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/Zds.FAB.Shape.Sharp"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
+            app:srcCompat="@drawable/ic_add_sharp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -237,7 +237,7 @@
             android:layout_marginHorizontal="16dp"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Primary"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonExtended"
             app:layout_constraintStart_toStartOf="parent"
@@ -253,7 +253,7 @@
             android:layout_marginHorizontal="16dp"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Primary"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonExtended2"
@@ -279,7 +279,7 @@
             android:layout_marginHorizontal="16dp"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Variant"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonExtendedVariant"
             app:layout_constraintStart_toStartOf="parent"
@@ -295,7 +295,7 @@
             android:layout_marginHorizontal="16dp"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Variant"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonExtendedVariant2"
@@ -321,7 +321,7 @@
             android:layout_marginHorizontal="16dp"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Inverse"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonExtendedInverse"
             app:layout_constraintStart_toStartOf="parent"
@@ -337,7 +337,7 @@
             android:layout_marginHorizontal="16dp"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Inverse"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonExtendedInverse2"
@@ -364,7 +364,7 @@
             android:enabled="false"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Variant"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/materialButtonExtendedDisabled"
             app:layout_constraintStart_toStartOf="parent"
@@ -381,7 +381,7 @@
             android:enabled="false"
             android:text="Label"
             android:theme="@style/Zds.FAB.Extended.Variant"
-            app:icon="@drawable/ic_baseline_add_24"
+            app:icon="@drawable/ic_add_sharp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialButtonExtendedDisabled2"

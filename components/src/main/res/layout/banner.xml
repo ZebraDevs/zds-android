@@ -22,15 +22,13 @@
 
         <com.zebra.zds.ZdsIconButton
             android:id="@+id/close"
-            style="@style/Zds.IconButton.Basic"
+            style="@style/Zds.IconButton.Text"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:padding="0dp"
+            app:colorOnContainer="@color/textPrimaryVariant"
+            app:icon="@drawable/ic_close_sharp"
             app:iconPadding="0dp"
-            style="@style/Zds.IconButton.Text"
-            android:theme="@style/Zds.IconButton.Text"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             app:iconTint="@color/textPrimaryVariant"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

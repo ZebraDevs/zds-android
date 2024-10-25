@@ -60,10 +60,10 @@ publishing {
     repositories {
         maven {
             credentials {
-                username =  project.property('artifactoryusername')
+                username = project.property('artifactoryusername')
                 password = project.property('artifactorypassword')
             }
-            url = project.property('zds-android-maven')  + project.property('publish')
+            url = project.property('zds-android-maven') + project.property('publish')
         }
     }
 }

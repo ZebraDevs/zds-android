@@ -161,11 +161,13 @@ public class MainActivity extends AppCompatActivity {
         // Setup Navigation view header and footer
         ((TextView) navView.getHeaderView(0).findViewById(R.id.title)).setText("Title");
         ((TextView) navView.getHeaderView(0).findViewById(R.id.subtitle)).setText("Subtitle");
-//        ((TextView) findViewById(R.id.footer_subtitle)).setText("version " + BuildConfig.VERSION_NAME);
-
-        ((AppCompatImageView) navView.getHeaderView(0).findViewById(R.id.image)).setImageResource(R.drawable.ic_baseline_emoji_emotions_24);
+        // x-release-please-start-version
+        ((TextView) findViewById(R.id.footer_subtitle)).setText("ZDS Android v1.0.0");
+        // x-release-please-end
+        ((AppCompatImageView) navView.getHeaderView(0).findViewById(R.id.image)).setImageResource(R.drawable.ic_happy_round);
+        ((AppCompatImageView) navView.getHeaderView(0).findViewById(R.id.image)).setImageTintList(ColorStateList.valueOf(Color.WHITE));
         ((ZdsIconButton) navView.getHeaderView(0).findViewById(R.id.action)).setIconTint(ColorStateList.valueOf(Color.WHITE));
-        ((ZdsIconButton) navView.getHeaderView(0).findViewById(R.id.action)).setIconResource(R.drawable.ic_baseline_settings_24);
+        ((ZdsIconButton) navView.getHeaderView(0).findViewById(R.id.action)).setIconResource(R.drawable.ic_settings_round);
 
         setMenuCounter(navView, R.id.buttonsFragment, 24);
 
@@ -173,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         ActionBar actionbar = getSupportActionBar();
         if (actionbar != null) {
             actionbar.setDisplayHomeAsUpEnabled(true);
-            actionbar.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24);
+            actionbar.setHomeAsUpIndicator(R.drawable.ic_hamburger_menu_round);
         }
 
         getBanner().setOnClickListener(v -> hideBanner());
@@ -246,7 +248,7 @@ public class MainActivity extends AppCompatActivity {
     public void showBanner() {
         ZdsSystemBanner.Style style = getBanner().getStyle();
         int statusBarColor = R.color.zebra_toolbar;
-        switch(style) {
+        switch (style) {
             case DEFAULT:
                 statusBarColor = R.color.zebra_blue_enabled;
                 break;

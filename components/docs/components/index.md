@@ -167,7 +167,7 @@ All views have public visibility and can be used in code by accessing them direc
 ## Attributes:
 
 | Name              | Format                    | Info                                 |
-| ----------------- | ------------------------- | ------------------------------------ |
+|-------------------|---------------------------|--------------------------------------|
 | label             | string or reference       | Custom label above the text input.   |
 | label_style       | none, mandatory, optional | Style of the label.                  |
 | hint              | string or reference       | Custom hint below the text input.    |
@@ -179,7 +179,7 @@ All views have public visibility and can be used in code by accessing them direc
 ## Methods:
 
 | Name                                 | Info                                          |
-| ------------------------------------ | --------------------------------------------- |
+|--------------------------------------|-----------------------------------------------|
 | setLabel( String label )             | Sets the top label                            |
 | setLabel( Int labelResId )           | Sets the top label                            |
 | setError( String error )             | Sets the error state and label                |
@@ -320,7 +320,7 @@ The class **com.zebra.zds.ZdsLinearProgressIndicator** is a composite view which
 ## Attributes:
 
 | Name           | Format              | Info                                                          |
-| -------------- | ------------------- | ------------------------------------------------------------- |
+|----------------|---------------------|---------------------------------------------------------------|
 | label          | string or reference | Label shown above the indicator.                              |
 | indeterminate  | boolean             | Toggles the indeterminate property of the progress bar.       |
 | max            | integer             | Maximum progress.                                             |
@@ -331,7 +331,7 @@ The class **com.zebra.zds.ZdsLinearProgressIndicator** is a composite view which
 ## Methods:
 
 | Name                      | Info               |
-| ------------------------- | ------------------ |
+|---------------------------|--------------------|
 | setLabel(String label)    | Sets the label.    |
 | setLabel(int labelResId)  | Sets the label.    |
 | setProgress(int progress) | Sets the progress. |
@@ -364,7 +364,7 @@ The class **com.zebra.zds.ZdsCircularProgressIndicator** is a composite view whi
 ## Attributes:
 
 | Name          | Format              | Info                                                    |
-| ------------- | ------------------- | ------------------------------------------------------- |
+|---------------|---------------------|---------------------------------------------------------|
 | label         | string or reference | Label shown in the center of the indicator.             |
 | indeterminate | boolean             | Toggles the indeterminate property of the progress bar. |
 | max           | integer             | Maximum progress.                                       |
@@ -373,7 +373,7 @@ The class **com.zebra.zds.ZdsCircularProgressIndicator** is a composite view whi
 ## Methods:
 
 | Name                                          | Info                                                |
-| --------------------------------------------- | --------------------------------------------------- |
+|-----------------------------------------------|-----------------------------------------------------|
 | setLabel(String label)                        | Sets the label.                                     |
 | setLabel(int labelResId)                      | Sets the label.                                     |
 | setProgress(int progress)                     | Sets the progress.                                  |
@@ -516,13 +516,13 @@ All elements have generated setters and getters.
 ### ZdsListItem
 
 | Name                             | Info                                                 |
-| -------------------------------- | ---------------------------------------------------- |
+|----------------------------------|------------------------------------------------------|
 | getListItem(ViewGroup viewGroup) | Static method that returns a view for ZdsViewHolder. |
 
 ### ZdsViewHolder
 
 | Name                     | Info                   |
-| ------------------------ | ---------------------- |
+|--------------------------|------------------------|
 | showIconLeft(int resId)  | Shows the left icon.   |
 | hideIconLeft(int resId)  | Hides the left icon.   |
 | showIconRight(int resId) | Shows the right icon.  |
@@ -588,7 +588,7 @@ To instantiate a dialog use the Builder class **com.zebra.zds.ZdsDialog.Builder*
 The methods of the Builder class:<br>
 
 | Name                                                     | Info                                        |
-| -------------------------------------------------------- | ------------------------------------------- |
+|----------------------------------------------------------|---------------------------------------------|
 | setTitle(String text)                                    | Sets the title text.                        |
 | setContent(String text)                                  | Sets the body text.                         |
 | setIcon(int iconResId)                                   | Sets the icon resource.                     |
@@ -780,7 +780,7 @@ public void onItemClick(AdapterView<?> parent,View view,int position,long id){
 ## Attributes:
 
 | Name         | Format                                  | Info                  |
-| ------------ | --------------------------------------- | --------------------- |
+|--------------|-----------------------------------------|-----------------------|
 | message      | string or reference                     | Banner message.       |
 | title        | string or reference                     | Banner title.         |
 | banner_style | none, info, positive, warning, negative | Style for the banner. |
@@ -789,7 +789,7 @@ public void onItemClick(AdapterView<?> parent,View view,int position,long id){
 ## Methods:
 
 | Name                                                | Info                    |
-| --------------------------------------------------- | ----------------------- |
+|-----------------------------------------------------|-------------------------|
 | setMessageString( String message )                  | Sets the message        |
 | setTitleString( String title )                      | Sets the title          |
 | setSharp( boolean isSharp )                         | Sets the sharp style    |
@@ -862,7 +862,7 @@ private void hideBanner(){
 ## Attributes:
 
 | Name           | Format                            | Info                  |
-| -------------- | --------------------------------- | --------------------- |
+|----------------|-----------------------------------|-----------------------|
 | title          | string or reference               | Banner title.         |
 | banner_style   | none, positive, warning, negative | Style for the banner. |
 | title_centered | boolean                           | Centers the title.    |
@@ -870,7 +870,7 @@ private void hideBanner(){
 ## Methods:
 
 | Name                              | Info                  |
-| --------------------------------- | --------------------- |
+|-----------------------------------|-----------------------|
 | setTitleString( String title )    | Sets the title        |
 | centerTitle( boolean isCentered ) | Centers the title.    |
 | setStyle( ZdsBanner.Style style ) | Sets the banner style |
@@ -966,14 +966,14 @@ All views have public visibility and can be used in code by accessing them direc
 ## Attributes:
 
 | Name              | Format              | Info                                |
-| ----------------- | ------------------- | ----------------------------------- |
+|-------------------|---------------------|-------------------------------------|
 | hint              | string or reference | Custom hint below the text input.   |
 | startIconDrawable | reference           | Drawable at the start of the input. |
 
 ## Methods:
 
 | Name                                 | Info                                          |
-| ------------------------------------ | --------------------------------------------- |
+|--------------------------------------|-----------------------------------------------|
 | setError( String error )             | Sets the error state and label                |
 | setHint( String hint )               | Sets the bottom hint                          |
 | setPlaceholder( String placeholder ) | Sets a placeholder hint text inside the input |

@@ -28,10 +28,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/start_contextual_mode"
-        app:logo="@drawable/ic_baseline_emoji_emotions_24"
+        app:logo="@drawable/ic_happy_round"
         app:menu="@menu/app_menu"
-        app:navigationIcon="@drawable/ic_baseline_menu_24"
-        app:navigationIconTint="@android:color/white"
+        app:navigationIcon="@drawable/ic_hamburger_menu_round"
         app:title="@string/app_name"
         app:titleCentered="true"
         app:titleMarginTop="16dp" />
@@ -47,8 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar_avatar"
         app:menu="@menu/search_menu"
-        app:navigationIcon="@drawable/ic_baseline_menu_24"
-        app:navigationIconTint="@android:color/white"
+        app:navigationIcon="@drawable/ic_hamburger_menu_round"
         app:title="@string/app_name"
         app:titleMarginTop="16dp" />
 

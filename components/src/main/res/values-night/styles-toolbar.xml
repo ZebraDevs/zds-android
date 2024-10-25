@@ -6,8 +6,9 @@
         <item name="navigationIconTint">@color/textPrimaryVariant</item>
         <item name="colorOnSurface">@color/textPrimaryVariant</item>
         <item name="iconTint">@color/textPrimaryVariant</item>
-<!--        <item name="materialThemeOverlay">@style/Zds.ToolbarOverlay</item>-->
+        <!--        <item name="materialThemeOverlay">@style/Zds.ToolbarOverlay</item>-->
         <item name="contentScrim">@color/textPrimaryVariant</item>
+        <item name="tint">@color/textPrimaryVariant</item>
         <item name="android:textColorHint">@color/textPrimaryVariant</item>
     </style>
 

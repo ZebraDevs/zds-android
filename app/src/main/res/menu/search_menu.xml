@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_search"
-        android:icon="@drawable/ic_baseline_search_24"
+        android:icon="@drawable/ic_search_round"
         android:title="@string/menu_action_search"
         app:showAsAction="always|collapseActionView"
         app:actionViewClass="com.zebra.zds.ZdsSearchView"/>

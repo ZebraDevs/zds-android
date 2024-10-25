@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.ZdsBase" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi" tools:targetApi="23">true
+        </item>
         <item name="colorPrimary">@color/zebra_toolbar</item>
         <item name="colorPrimaryDark">@color/zebra_toolbar</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -16,7 +18,7 @@
         <item name="toolbarStyle">@style/Zds.Toolbar</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:statusBarColor">@color/backgroundTertiary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeCloseDrawable">@drawable/ic_close_sharp</item>
         <item name="searchViewStyle">@style/Zds.SearchView</item>
@@ -26,7 +28,6 @@
         <item name="overlapAnchor">false</item>
         <item name="snackbarStyle">@style/Zds.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Zds.Snackbar.SnackbarButton</item>
-
         <item name="android:textViewStyle">@style/TextAppearance.Zds.BodyMedium</item>
         <item name='android:fontFamily'>@font/ibm_plex_sans</item>
         <item name='fontFamily'>@font/ibm_plex_sans</item>

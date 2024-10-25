@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="88dp"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
     android:background="@color/backgroundTertiary"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/image"
@@ -23,15 +21,11 @@
 
     <com.zebra.zds.ZdsIconButton
         android:id="@+id/action"
-        style="@style/Zds.IconButton.Basic"
+        style="@style/Zds.IconButton.Text"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="?android:attr/statusBarColor"
-        style="@style/Zds.IconButton.Text"
         android:theme="@style/Zds.IconButton.Text"
-        tools:iconTint="@color/zebra_control_inverse"
-        tools:icon="@drawable/ic_round_warning"
-        app:iconTint="@android:color/white"
         app:iconPadding="4dp"
         app:iconTint="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,14 +39,11 @@
         style="@style/TextAppearance.Material3.TitleMedium"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="start"
-        tools:text="Title"
-        android:textSize="18sp"
-        android:textColor="@color/textInverse"
         android:layout_marginStart="16dp"
         android:background="@null"
         android:gravity="start"
-        android:textColor="@color/textPrimary"
+        android:textColor="@color/textInverse"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@id/action"
         app:layout_constraintStart_toEndOf="@id/image"
         app:layout_constraintTop_toTopOf="@id/image"

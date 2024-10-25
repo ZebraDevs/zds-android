@@ -11,7 +11,7 @@
     </style>
 
     <style name="Zds.FAB.Variant" parent="Widget.Material3.FloatingActionButton.Primary">
-        <item name="colorPrimaryContainer">@color/zebra_yellow_enabled</item>
+        <item name="colorPrimaryContainer">@color/zebra_yellow_button</item>
         <item name="colorOnPrimaryContainer">@color/textPrimaryVariant</item>
         <item name="iconTint">@color/textPrimaryVariant</item>
         <item name="rippleColor">@color/zebra_yellow_pressed</item>
@@ -38,7 +38,7 @@
     </style>
 
     <style name="Zds.FAB.Extended.Variant" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
-        <item name="colorPrimaryContainer">@color/zebra_yellow_enabled</item>
+        <item name="colorPrimaryContainer">@color/zebra_yellow_button</item>
         <item name="colorOnPrimaryContainer">@color/textPrimaryVariant</item>
         <item name="iconTint">@color/textPrimaryVariant</item>
         <item name="rippleColor">@color/zebra_yellow_pressed</item>

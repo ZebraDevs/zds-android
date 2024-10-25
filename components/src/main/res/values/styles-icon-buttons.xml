@@ -17,7 +17,7 @@
 
     <style name="Zds.IconButton.Primary.Variant" parent="Widget.Material3.Button.IconButton">
         <item name="backgroundTint">@drawable/button_selector</item>
-        <item name="colorContainer">@color/zebra_yellow_enabled</item>        >
+        <item name="colorContainer">@color/zebra_yellow_button</item>
         <item name="iconTint">@color/textPrimary</item>
         <item name="colorOnSurface">@color/zebra_grey_disabled</item>
         <item name="rippleColor">@color/zebra_yellow_pressed</item>
@@ -39,7 +39,21 @@
         <item name="cornerRadius">4dp</item>
     </style>
 
+    <style name="Zds.IconButton.Positive" parent="Widget.Material3.Button.IconButton">
+        <item name="backgroundTint">@drawable/button_selector</item>
+        <item name="colorContainer">@color/zebra_green</item>
+        <item name="colorOnSurface">@color/zebra_grey_disabled</item>
+        <item name="rippleColor">@color/zebra_green_selected</item>
+        <item name="iconTint">@color/textPrimary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
     <style name="Zds.IconButton.Negative.Sharp" parent="Zds.IconButton.Negative">
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="Zds.IconButton.Positive.Sharp" parent="Zds.IconButton.Positive">
         <item name="cornerRadius">0dp</item>
     </style>
 
