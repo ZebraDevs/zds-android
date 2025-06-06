@@ -40,6 +40,18 @@
       "section": "🧹 Miscellaneous Chores"
     },
     {
+      "type": "iconadded",
+      "section": "✅ Icons added"
+    },
+    {
+      "type": "iconremoved",
+      "section": "✂️ Icons removed"
+    },
+    {
+      "type": "iconupdated",
+      "section": "🎨 Icons updated"
+    },
+    {
       "type": "perf",
       "section": "Performance Improvements",
       "hidden": true
