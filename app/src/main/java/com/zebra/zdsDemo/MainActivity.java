@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
         ((TextView) navView.getHeaderView(0).findViewById(R.id.title)).setText("Title");
         ((TextView) navView.getHeaderView(0).findViewById(R.id.subtitle)).setText("Subtitle");
         // x-release-please-start-version
-        ((TextView) findViewById(R.id.footer_subtitle)).setText("ZDS Android v1.1.0");
+        ((TextView) findViewById(R.id.footer_subtitle)).setText("ZDS Android v1.2.0");
         // x-release-please-end
         ((AppCompatImageView) navView.getHeaderView(0).findViewById(R.id.image)).setImageResource(R.drawable.ic_happy_round);
         ((AppCompatImageView) navView.getHeaderView(0).findViewById(R.id.image)).setImageTintList(ColorStateList.valueOf(Color.WHITE));
